@@ -1,18 +1,22 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
+Hello! I'm Chris Bruno. 
+I'm currently employed at Petricore, full-time. I am a programmer first, but I also assist in design. My specialty is in mobile games, but I have worked on a few PC projects for various museum exhibits.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+# Skills
+* C#
+* C++
+* Objective-C
+* Unity
+* Builds: Android and iOS
+* Git, Sourcetree, Github
+* Perforce
+* Visual Studio
+* XCode
+* Android Studio
+* Agile, Kanban
