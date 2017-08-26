@@ -1,7 +1,8 @@
 ---
-layout: default
+published: false
+layout: game
 title: Battery Boy
-description: An endless runner that changes based on your device battery life
+pitch: An endless runner that changes based on your device battery life
 collection: games
 thumbnail: batteryboy.gif
 ---
