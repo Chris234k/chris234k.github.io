@@ -20,8 +20,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ruhrohbruno
 github_username:  chris234k
-
 repository: chris234k/chris234k.github.io
+
+# SPACES MATTER DOG
+collections:
+ games:
+  output: true
+  permalink: /:collection/:title/
 
 # Build settings
 markdown: kramdown
