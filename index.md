@@ -3,6 +3,7 @@ layout: default
 ---
 
 #  Games
+* * *
 ### Battery Boy
 Battery Boy is an endless runner that changes based on the battery level of your device.
 
@@ -47,7 +48,7 @@ Meow ma meow?
 <br/>
 
 # Jams, Experimental, Misc
-
+* * *
 ### Galaxy Hook
 GMTK 48 hour game jam.
 
