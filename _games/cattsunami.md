@@ -7,8 +7,8 @@ thumbnail: cattsunami.gif
 ---
 
 <div markdown="0">
-  <div> <iframe width="560" height="315" src="https://www.youtube.com/embed/GlweifiUrE0" frameborder="0" allowfullscreen></iframe>
-    <div style="margin-left:auto;margin-right:auto">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GlweifiUrE0" frameborder="0" allowfullscreen></iframe>
+    <div>
       <a href="https://play.google.com/store/apps/details?id=com.thumbspire.cattsunami&hl=en">
         <image src="/assets/images/googleplay-badge.png" style="width:200px"/>
       </a>
@@ -16,7 +16,6 @@ thumbnail: cattsunami.gif
         <image src="/assets/images/ios-badge.svg" style="width:175px"/>
       </a>
     </div>
-  </div>
 </div>
 
 ## Lead Programmer
