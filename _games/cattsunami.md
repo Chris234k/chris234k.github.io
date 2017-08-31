@@ -30,7 +30,7 @@ thumbnail: cattsunami.gif
 Cat Tsunami is a product of the 2014 MassDiGI Summer Innovation Program. In collaboration with Thumbspire, the game was soft launched in the Philippines and the UK. Analytics were used to iterate on balance and prepare the game for release.
 
 My Role:
+- Lead on a team of 4 programmers
 - Overhaul of shop and tutorial
-- Coordinated with a team of 
 - Oversee development of all systems, including 3rd party plugins
 - Code review
