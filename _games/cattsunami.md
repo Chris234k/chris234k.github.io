@@ -7,10 +7,10 @@ thumbnail: cattsunami.gif
 ---
 
 <div markdown="0">
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GlweifiUrE0" frameborder="0" allowfullscreen></iframe>
-    <!-- There's got to be a cleaner way to convey "same width as this iframe"-->
-    <div style="text-align: center; width: 560px;">
+  <div class="aspectratio">
+    <iframe src="https://www.youtube.com/embed/GlweifiUrE0" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div style="text-align: center;">
     <div class="storebutton">
       <a href="https://play.google.com/store/apps/details?id=com.thumbspire.cattsunami&hl=en">
 	<image src="/assets/images/googleplay-badge.png" style="width:200px"/>
@@ -20,7 +20,6 @@ thumbnail: cattsunami.gif
       <a href="https://itunes.apple.com/us/app/cat-tsunami/id922532883?mt=8">
 	<image src="/assets/images/ios-badge.svg" style="width:175px"/>
       </a>
-    </div>
     </div>
   </div>
 </div>
