@@ -4,13 +4,10 @@ title: Mind the Arrow
 pitch: Puzzle-matching with a literal twist
 collection: games
 thumbnail: mindthearrow.gif
+trailer: https://www.youtube.com/embed/ez8xvOUlOa8
+google-play: https://play.google.com/store/apps/details?id=com.thumbspire.mta
+ios: https://itunes.apple.com/us/app/mind-the-arrow-match-the-dots/id1003871458?mt=8&ign-mpt=uo%3D4
 ---
-
-<div markdown="0">
- <body>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/ez8xvOUlOa8" frameborder="0" allowfullscreen></iframe>
- </body>
-</div>
 
 ## Programmer
 

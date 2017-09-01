@@ -7,6 +7,27 @@ layout: default
   {{ page.pitch }}
 </header>
 
-  <div>
-    {{ content }}
+<div>
+  {% if page.trailer %}
+  <div class="aspectratio">
+    <iframe src="{{page.trailer}}" frameborder="0" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+  <div style="text-align: center;">
+    {% if page.google-play %}
+    <div class="storebutton">
+      <a href="{{page.google-play}}">
+	<image src="/assets/images/googleplay-badge.png" style="width:200px"/>
+      </a>
+    </div>
+    {% endif %}
+    {% if page.ios %}
+    <div class="storebutton">
+      <a href="{{page.ios}}">
+	<image src="/assets/images/ios-badge.svg" style="width:175px"/>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+  {{ content }}
 </div>
