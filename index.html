@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<div><h1> Games </h1> </div>
-{% for game in site.games %}
-<div class="game" style="background:gray">
-  <h3> <a href="{{game.url}}" style="color:white">{{game.title}}</a> </h3>
-  {{game.pitch}} 
+<div class="game-tiles">
+  <h1> Games </h1>
+  {% for game in site.games %}
+    <a href="{{game.url}}" class="button" >{{game.title}} </br> </br> {{game.pitch}} </a>
+  {% endfor %}
 </div>
-{% endfor %}
