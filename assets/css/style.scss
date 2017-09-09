@@ -2,24 +2,23 @@
 ---
 @import "{{site.theme}}";
 
-.game-tiles {
-    width: 100%;
-    overflow-y: auto;
-    background: slategray;
-    text-align: center;
-}
-
-.game-tiles > a {
+.container {
     width: 200px;
-    height: 200px;
+    position: relative;
     float: left;
-    background: black;
-    margin: 15px;
-    text-align: center;
 }
 
-.game-tiles > a:hover {
-    background: gray;
+.container > img {
+    width: 100%;
+}
+
+.container .after {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    z-index: 1;
 }
 
 .storebutton {

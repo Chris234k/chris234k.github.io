@@ -2,9 +2,16 @@
 layout: default
 ---
 
-<div class="game-tiles">
+<div>
   <h1> Games </h1>
   {% for game in site.games %}
-    <a href="{{game.url}}" class="button" >{{game.title}} </br> </br> {{game.pitch}} </a>
+  <div class="container">
+    <img src="{{game.thumbnail}}"/>
+    <div class="after">
+      <h4 style="text-align: center;">{{game.title}}</h4>
+      <p>{{game.pitch}}</p>
+      <a href="{{game.url}}" class="button"> </a>
+    </div>
+  </div>
   {% endfor %}
 </div>
