@@ -3,14 +3,16 @@
 @import "{{site.theme}}";
 
 .container {
-    width: 200px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
     background-color: gray;
     padding: 7px;
     margin-bottom: 10px;
 }
 
 .container > img {
-    width: inherit;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
