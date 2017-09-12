@@ -6,8 +6,8 @@ layout: default
   <h1> Games </h1>
   {% for game in site.games %}
   <div class="container">
-    <img src="{{game.thumbnail}}"/>
-    <div class="after">
+    <img src="{{game.thumbnail}}" alt="[Missing Thubmnail]"/>
+    <div class="overlay">
       <h4 style="text-align: center;">{{game.title}}</h4>
       <p>{{game.pitch}}</p>
       <a href="{{game.url}}" class="button"> </a>

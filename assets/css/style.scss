@@ -4,19 +4,18 @@
 
 .container {
     width: 200px;
-    position: relative;
-    float: left;
+    background-color: gray;
+    padding: 7px;
+    margin-bottom: 10px;
 }
 
 .container > img {
-    width: 100%;
+    width: inherit;
+    margin: 0;
+    padding: 0;
 }
 
-.container .after {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
+.container .overlay {
     background-color: gray;
     z-index: 1;
 }
