@@ -3,23 +3,39 @@
 @import "{{site.theme}}";
 @import "bootstrap";
 
-.container {
-    box-sizing: border-box;
-    width: 25%;
-    background-color: gray;
-    padding: 7px;
-    margin-bottom: 10px;
-}
-
-.container > img {
+// https://codepen.io/luisintosh/pen/gPGXOp?editors=1100
+.thumbnail_block {
+    background: black;
+    padding: 0px;
+    position: relative;
+    text-align: center;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
-.container .overlay {
-    background-color: gray;
-    z-index: 1;
+.thumbnail_block img {
+  opacity: 1;
+  transition: 0.5s opacity;
+}
+
+.thumbnail_block .thumbnail_description {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0px;
+  color: white;
+  font-size: 1.2em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+}
+
+.thumbnail_block:hover img {
+  opacity: 0.7;
+}
+
+.thumbnail_block:hover .thumbnail_description {
+  padding-bottom: 10%;
 }
 
 .storebutton {
