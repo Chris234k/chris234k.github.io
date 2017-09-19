@@ -3,7 +3,7 @@ layout: game
 title: Cat Tsunami
 pitch: Cats surfing on a wave of cats.
 collection: games
-thumbnail: cattsunami.gif
+thumbnail:
 trailer: https://www.youtube.com/embed/GlweifiUrE0
 google-play: https://play.google.com/store/apps/details?id=com.thumbspire.cattsunami&hl=en
 ios: https://itunes.apple.com/us/app/cat-tsunami/id922532883?mt=8

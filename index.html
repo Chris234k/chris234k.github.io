@@ -2,12 +2,16 @@
 layout: default
 ---
 
-<div class="row text-center text-lg-left">
+<div class="row text-center">
   <h1> Games </h1>
   {% for game in site.games %}
     <div class="col-xs-4">
-      <a href="{{game.url}}" class="d-block mb-4 h-100">
+      <a href="{{game.url}}" class="d-block">
+	{% if game.thumbnail == null %}
+	<img class="img-fluid img-thumbnail" src="http://placehold.it/1080x1920">
+	{% else %}
         <img class="img-fluid img-thumbnail" src="{{game.thumbnail}}">
+	{% endif %}
       </a>
       <h4 style="text-align: center;">{{game.title}}</h4>
       <p>{{game.pitch}}</p>      
