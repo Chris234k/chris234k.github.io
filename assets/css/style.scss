@@ -1,11 +1,11 @@
 ---
 ---
 @import "{{site.theme}}";
+@import "bootstrap";
 
 .container {
     box-sizing: border-box;
     width: 25%;
-    float: left;
     background-color: gray;
     padding: 7px;
     margin-bottom: 10px;

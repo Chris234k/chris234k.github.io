@@ -2,16 +2,15 @@
 layout: default
 ---
 
-<div>
+<div class="row text-center text-lg-left">
   <h1> Games </h1>
   {% for game in site.games %}
-  <div class="container">
-    <img src="{{game.thumbnail}}" alt="[Missing Thubmnail]"/>
-    <div class="overlay">
+    <div class="col-xs-4">
+      <a href="{{game.url}}" class="d-block mb-4 h-100">
+        <img class="img-fluid img-thumbnail" src="{{game.thumbnail}}">
+      </a>
       <h4 style="text-align: center;">{{game.title}}</h4>
-      <p>{{game.pitch}}</p>
-      <a href="{{game.url}}" class="button"> </a>
+      <p>{{game.pitch}}</p>      
     </div>
-  </div>
   {% endfor %}
 </div>
