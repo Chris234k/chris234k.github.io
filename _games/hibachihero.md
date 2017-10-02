@@ -3,7 +3,7 @@ layout: game
 title: Hibachi Hero
 pitch: Food slicing a la Fruit Ninja
 collection: games
-thumbnail:
+thumbnail: assets/images/hh.png
 trailer: https://www.youtube.com/embed/HMUWzCgeuOQ
 google-play: https://play.google.com/store/apps/details?id=com.massdigi.hibachihero&hl=en
 ios: https://itunes.apple.com/us/app/hibachi-hero/id1049889564?mt=8
