@@ -17,7 +17,7 @@ title: Chris Bruno
 email: chris234k@gmail.com
 description: Game Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://chris234k.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ruhrohbruno
 github_username:  chris234k
 repository: chris234k/chris234k.github.io
