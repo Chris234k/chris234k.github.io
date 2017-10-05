@@ -2,23 +2,20 @@
 layout: default
 ---
 
-<div class="row" style="text-align: center">
-  <h1> Games </h1>
+<span style="text-align: center;">
+<h1> Games </h1>
+</span>
+
+<div class="row" style="text-align: center;">
   {% for game in site.games %}
-  <div class="col-xs-4">
-    <div class="thumbnail_block">
-      <a href="{{game.url}}">
-	{% if game.thumbnail == null %}
-	<img class="category-banner img-responsive" src="http://placehold.it/1080x1920">
-	{% else %}
-        <img class="category-banner img-responsive" src="{{game.thumbnail}}">
-	{% endif %}
-	<span class="thumbnail_description">
-	  <h4>{{game.title}}</h4>
-	  <p>{{game.pitch}}</p>
-	</span>
-      </a>
+  <!-- a tag with display: block behaves exactly like a div -->
+  <a href="{{game.url}}" class="col-xs-4" style="display: block; padding-bottom: 15px;">
+    <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
+      <span class="thumbnail_description">
+    	<h4>{{game.title}}</h4>
+    	<p>{{game.pitch}}</p>
+      </span>
     </div>
-  </div>
+  </a>
   {% endfor %}
 </div>
