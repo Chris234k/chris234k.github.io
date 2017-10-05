@@ -2,13 +2,16 @@ todo
 try to order by precedence
 -----
 
-- support landscape thumbnails
+- DESIGN (removed slate stylesheet)
+-- color scheme
+-- font
+-- header & footer style (footer needs love)
+-- link style (not blue)
 
-- home button (link on my name?)
-
-- create layout for  sections: interactives, jams / experimental / misc
+- create layout for sections: interactives, jams / experimental / misc
 -- should probably include traveling merchant in jams / experimental (due to unreleased)
 
+- add space between grid thumbnails (current ones expand so are clickable outside visuals)
 
 - alternative to trailer link: landscape screenshot (at least for games)
 
