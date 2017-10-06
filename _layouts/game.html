@@ -12,6 +12,10 @@ layout: default
   <div class="aspectratio">
     <iframe src="{{page.trailer}}" frameborder="0" allowfullscreen></iframe>
   </div>
+  {% elsif page.demo-gif %}
+  <div class="aspectratio">
+    <img src="{{page.demo-gif}}" class="demo-gif">
+  </div>
   {% endif %}
   <div style="text-align: center;">
     {% if page.google-play %}

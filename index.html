@@ -20,13 +20,31 @@ layout: default
   </a>
   {% endfor %}
 </div>
+
 <hr/>
+
 <span style="text-align: center;">
   <h1>Interactives</h1>
     <h4>Museums, zoos, apps</h4>
 </span>
+
 <hr/>
+
 <span style="text-align: center;">
   <h1>Experimental</h1>
     <h4>Game jams, personal projects, unreleased games</h4>
 </span>
+<div class="row" style="text-align: center;">
+  {% assign exps = site.experimental | sort: 'grid-rank' %}
+  {% for exp in exps %}
+  <!-- a tag with display: block behaves exactly like a div -->
+  <a href="{{exp.url}}" class="col-md-4" style="display: block; padding-bottom: 15px;">
+    <div class="center-cropped" style="background-image: url({{exp.thumbnail}});">
+      <span class="thumbnail_description">
+    	<h4>{{exp.title}}</h4>
+    	<p>{{exp.pitch}}</p>
+      </span>
+    </div>
+  </a>
+  {% endfor %}
+</div>

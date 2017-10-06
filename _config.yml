@@ -27,6 +27,9 @@ collections:
  games:
   output: true
   permalink: /:collection/:title/
+ experimental:
+  output: true
+  permalink: /:collection/:title/
 
 # Build settings
 markdown: kramdown
