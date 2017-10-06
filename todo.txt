@@ -2,12 +2,6 @@ todo
 try to order by precedence
 -----
 
-- DESIGN (removed slate stylesheet)
--- color scheme
--- font
--- header & footer style (footer needs love)
--- link style (not blue)
-
 - create layout for sections: interactives, jams / experimental / misc
 -- should probably include traveling merchant in jams / experimental (due to unreleased)
 
@@ -15,4 +9,6 @@ try to order by precedence
 
 - alternative to trailer link: landscape screenshot (at least for games)
 
-
+- DESIGN (removed slate stylesheet)
+-- header & footer style (footer needs love)
+-- home button (name doesn't read as button)
