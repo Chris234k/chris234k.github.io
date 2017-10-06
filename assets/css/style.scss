@@ -10,6 +10,24 @@ a {
     color: #FFF2DC;
 }
 
+a:hover {
+    color: #71736C;
+}
+
+a:active {
+    color: #71736C;
+}
+
+hr {
+    background-color: #71736C;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 #header_wrap {
     background: #222222;
     color: #FFF2DC;
