@@ -2,12 +2,38 @@
 ---
 @import "bootstrap";
 
+body {
+    color: #3F403C;
+}
+
+a {
+    color: #FFF2DC;
+}
+
+#header_wrap {
+    background: #222222;
+    color: #FFF2DC;
+}
+
+#footer_wrap {
+    background: #222222;
+}
+
+#main_content_wrap {
+    background: #FFF1E3;
+}
+
+.outer {
+    background: #222222;
+}
+
 .inner {
     position: relative;
     max-width: 640px;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    padding: 10px;
 }
 
 .center-cropped {
