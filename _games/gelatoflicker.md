@@ -7,6 +7,7 @@ thumbnail: /assets/images/gf.png
 trailer: https://www.youtube.com/embed/R3Mjg5X56Jo
 google-play: https://play.google.com/store/apps/details?id=com.thumbspire.gelato&hl=en
 ios: https://itunes.apple.com/us/app/gelato-flicker/id1040605877?mt=8
+grid-rank: 1
 ---
 
 ## Programmer

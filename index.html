@@ -7,7 +7,8 @@ layout: default
   <h4>Released video games</h4>
 </span>
 <div class="row" style="text-align: center;">
-  {% for game in site.games %}
+  {% assign games = site.games | sort: 'grid-rank' %}
+  {% for game in games %}
   <!-- a tag with display: block behaves exactly like a div -->
   <a href="{{game.url}}" class="col-md-4" style="display: block; padding-bottom: 15px;">
     <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
