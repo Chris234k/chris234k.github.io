@@ -2,6 +2,8 @@ todo
 try to order by precedence
 -----
 
+- main content link color
+
 - create layout for sections: interactives, jams / experimental / misc
 -- should probably include traveling merchant in jams / experimental (due to unreleased)
 
@@ -14,4 +16,5 @@ try to order by precedence
 -- header & footer style (footer needs love: http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page bootstrap also has a 'sticky footer')
 -- home button (name doesn't read as button)
 
-- loop twitter embedded gif by default (see Galaxy Hook)
+- loop twitter embedded gif by default
+- alignment of itch.io links (Galaxy Hook)

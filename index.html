@@ -10,7 +10,7 @@ layout: default
   {% assign games = site.games | sort: 'grid-rank' %}
   {% for game in games %}
   <!-- a tag with display: block behaves exactly like a div -->
-  <a href="{{game.url}}" class="col-md-4" style="display: block; padding-bottom: 15px;">
+  <a href="{{game.url}}" class="col-md-4 no-fancy" style="display: block; padding-bottom: 15px;">
     <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
       <span class="thumbnail_description">
     	<h4>{{game.title}}</h4>
