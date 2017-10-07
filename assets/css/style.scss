@@ -72,6 +72,10 @@ hr {
     background: #FFF1E3;
 }
 
+#main_content_wrap a { // Differentiate link color from background color
+    color: #3F403C;
+}
+
 .outer {
     background: #222222;
 }
@@ -94,8 +98,8 @@ hr {
 }
 
 .thumbnail_description {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    background-color: rgba(34,34,34,0.8); // Same as header and footer with 80% alpha
+    color: #FFF2DC;
     width: 100%;
     bottom: 0px;
     left: 0px;
