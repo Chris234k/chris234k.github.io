@@ -38,7 +38,7 @@ layout: default
   {% assign exps = site.experimental | sort: 'grid-rank' %}
   {% for exp in exps %}
   <!-- a tag with display: block behaves exactly like a div -->
-  <a href="{{exp.url}}" class="col-md-4" style="display: block; padding-bottom: 15px;">
+  <a href="{{exp.url}}" class="col-md-4 no-fancy" style="display: block; padding-bottom: 15px;">
     <div class="center-cropped" style="background-image: url({{exp.thumbnail}});">
       <span class="thumbnail_description">
     	<h4>{{exp.title}}</h4>
