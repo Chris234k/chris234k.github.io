@@ -2,7 +2,7 @@ todo
 try to order by precedence
 -----
 
-- main content link color
+- Itch.io embedded width to fit mobile
 
 - create layout for sections: interactives, jams / experimental / misc
 -- should probably include traveling merchant in jams / experimental (due to unreleased)
