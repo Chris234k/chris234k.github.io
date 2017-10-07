@@ -8,6 +8,16 @@ body {
     font-size: 14px;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: #FFF1E3;;
+    background: #71736C;
+}
+
+::selection {
+    color: #FFF1E3;
+    background: #71736C;
+}
+
 a {
     color: #FFF2DC;
 }
