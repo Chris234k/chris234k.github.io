@@ -135,9 +135,17 @@ hr {
     padding-bottom: 56.25%
 }
 
-.aspectratio iframe, .demo-gif {
+.aspectratio iframe {
     position: absolute;
     width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+// Keep aspect ratio by only using height, width will auto fit to match (for img tag)
+.aspectratio .demo-gif {
+    position: absolute;
     height: 100%;
     left: 0;
     top: 0;

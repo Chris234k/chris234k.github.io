@@ -2,8 +2,6 @@ todo
 try to order by precedence
 -----
 
-- Prevent stretching demo-gif (maybe just handle on a page by page basis w/ custom html)
-
 - Itch.io embedded width to fit mobile
 
 - create layout for sections: interactives, jams / experimental / misc
