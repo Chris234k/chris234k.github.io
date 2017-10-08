@@ -10,13 +10,14 @@ ios: https://itunes.apple.com/us/app/hibachi-hero/id1049889564?mt=8
 grid-rank: 3
 ---
 
-## Lead Programmer
+## [MassDiGI](https://www.massdigi.org) SIP 2015
 
-Hibachi Hero was created during the 2015 MassDiGI Summer Innovation Program. On a team of 3 programmers, I was lead.
+MassDiGI brings college students from all around the U.S. (and Ireland!) together to create games from scratch. The Summer Innovation Program (SIP) lasts for approximately 10 weeks. At the end of the summer, we presented Hibachi Hero to a publisher, [Thumbspire](https://www.thumbspire.com/), who ultimately handled the iOS launch in the semester following SIP.
 
 My Role:
+- Lead programmer (on a team of 3)
 - Touch input handling system
 - Data saving and loading
 - Object pooling
-- Peer review and approval
+- Peer review
 - Analytics programming (Mixpanel)

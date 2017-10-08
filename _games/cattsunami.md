@@ -10,9 +10,9 @@ ios: https://itunes.apple.com/us/app/cat-tsunami/id922532883?mt=8
 grid-rank: 4
 ---
 
-## Lead Programmer
+## [MassDiGI](https://www.massdigi.org)'s "Live Code" Class
 
-Cat Tsunami is a product of the 2014 MassDiGI Summer Innovation Program. In collaboration with Thumbspire, the game was soft launched in the Philippines and the UK. Analytics were used to iterate on balance and prepare the game for release.
+Cat Tsunami is a product of the 2014 MassDiGI Summer Innovation Program (SIP). Games from SIP were brought into a class at Becker College called "Live Code". I, and a number of other students, worked with MassDiGI to continue the development of SIP games. In collaboration with [Thumbspire](https://www.thumbspire.com/), the game was soft launched in the Philippines and the UK. Analytics were used to iterate on balance and prepare the game for release. My success in this class got me into SIP 2015, where we created [Hibachi Hero](/games/hibachihero).
 
 My Role:
 - Lead on a team of 4 programmers
