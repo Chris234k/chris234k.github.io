@@ -17,6 +17,7 @@ layout: default
     <img src="{{page.demo-gif}}" class="demo-gif">
   </div>
   {% endif %}
+  {% if page.google-play || page.ios %}
   <div style="text-align: center;">
     {% if page.google-play %}
     <div class="storebutton">
@@ -33,5 +34,6 @@ layout: default
     </div>
     {% endif %}
   </div>
+  {% endif %}
   {{ content }}
 </div>
