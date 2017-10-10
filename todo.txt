@@ -8,14 +8,11 @@ try to order by precedence
 - add space between grid thumbnails (current ones expand so are clickable outside visuals)
 - scale grid thumbnails down with screen (mobile looks eh) to reveal more of the image
 
-- alternative to trailer link: landscape screenshot / gif (at least for games)
-
 - DESIGN (removed slate stylesheet)
 -- header & footer style (footer needs love: http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page bootstrap also has a 'sticky footer')
 -- home button (name doesn't read as button)
 
 - loop twitter embedded gif by default
-- alignment of itch.io links (Galaxy Hook)
 
 
 -----------------------------------------------------------------------
@@ -33,13 +30,14 @@ Income Inequality spotlight the issue.
 - Georgia Aquarium
 - Detroit Zoo
 - ABMC [Historic Registry, Gold Star Mothers]
-- AMST [Six Degres, Collage]
+- AMST [Six Degrees, Collage]
 - I Vote I Count
 - Pack It Up, Pioneer!
 - NPF Digital ??
 - Fasdraft
 - Memory Mill
 - UIAA (coming soon)
+
 
 ### Jams, Experimental, Misc ###
 
