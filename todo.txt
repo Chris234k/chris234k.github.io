@@ -2,8 +2,6 @@ todo
 try to order by precedence
 -----
 
-- Itch.io embedded width to fit mobile. padding-bottom: 30% matches aspect of embed. Might work out.
-
 - create layout for sections: interactives, jams / experimental / misc
 -- should probably include traveling merchant in jams / experimental (due to unreleased)
 
