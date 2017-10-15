@@ -16,6 +16,10 @@ layout: default
   <div class="aspectratio">
     <img src="{{page.demo-gif}}" class="demo-gif">
   </div>
+  {% elsif page.demo-video %}
+  <div class="aspectratio">
+    <video autoplay loop src="{{page.demo-video}}">
+  </div>
   {% endif %}
   {% if page.google-play or page.ios %}
   <div style="text-align: center;">
