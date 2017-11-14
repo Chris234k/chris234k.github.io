@@ -27,7 +27,20 @@ layout: default
   <h1>Interactives</h1>
     <h4>Museums, zoos, apps</h4>
 </span>
-
+<div class="row" style="text-align: center;">
+  {% assign ints = site.interactives | sort: 'grid-rank' %}
+  {% for int in ints %}
+  <!-- a tag with display: block behaves exactly like a div -->
+  <a href="{{int.url}}" class="col-md-4 no-fancy" style="display: block; padding-bottom: 15px;">
+    <div class="center-cropped" style="background-image: url({{int.thumbnail}});">
+      <span class="thumbnail_description">
+    	<h4>{{int.title}}</h4>
+    	<p>{{int.pitch}}</p>
+      </span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
 <hr/>
 
 <span style="text-align: center;">

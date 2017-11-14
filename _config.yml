@@ -30,6 +30,9 @@ collections:
  experimental:
   output: true
   permalink: /:collection/:title/
+ interactives:
+  output: true
+  permalink: /:collection/:title/
 
 # Build settings
 markdown: kramdown

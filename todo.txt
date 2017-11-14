@@ -35,14 +35,10 @@ Income Inequality spotlight the issue.
 - Pack It Up, Pioneer!
 - NPF Digital ??
 - Fasdraft
-- Memory Mill
 - UIAA (coming soon)
 
 
 ### Jams, Experimental, Misc ###
-
-- YoRHa Watch Face
-Android wear watch face with stylings from NieR: Automata.
 
 - Traveling Merchant [Unreleased]
 Minigames + clicker idle mechanics.
