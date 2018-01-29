@@ -4,7 +4,7 @@ title: Who Put That Cactus There?
 pitch: A puzzle platformer where you swap places with a ball instead of jumping
 collection: experimental
 thumbnail:
-trailer: https://drive.google.com/open?id=1Ab7ss836Nvp-9xsmx82Zqcp4GEg_GcpR
+trailer: https://drive.google.com/file/d/1Ab7ss836Nvp-9xsmx82Zqcp4GEg_GcpR/preview
 ---
 ## [Global Game Jam 2018](https://globalgamejam.org/theme-2018)
 
