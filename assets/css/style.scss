@@ -32,11 +32,11 @@ a:active {
 }
 
 a:before {
-    content: '[ ';
+    content: '[';
 }
 
 a:after {
-    content: ' ]';
+    content: ']';
 }
 
 // a tag w/o [ link ] formatting
