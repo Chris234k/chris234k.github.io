@@ -3,8 +3,8 @@ layout: game
 title: Memory Mill
 pitch: Explore the history of mills in Woonsocket, Rhode Island
 collection: interactives
-thumbnail: assets/images/mm.png
-demo-gif: /assets/images/mm-demo.gif
+thumbnail: assets/images/interactives/mm.png
+demo-gif: /assets/images/interactives/mm-demo.gif
 published: false
 ---
 Built for the [Museum of Work and Culture](http://www.rihs.org/museums/museum-of-work-and-culture).
