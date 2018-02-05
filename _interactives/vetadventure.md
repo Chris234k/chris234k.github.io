@@ -19,7 +19,7 @@ I often like to think of these sorts of interactives as games, where the whole g
 
 Here's an example of one such mechanic, scissors:
 [MECHANIC GIF]
-We discussed having a secondary interaction, something like tapping to make the scissors cut through the wire, but decided against it. Since the user spends maybe 10 seconds with this mechanic, there's just no benefit in making it 
+We discussed having a secondary interaction, something like tapping to make the scissors cut, but decided against it. Since the user spends maybe 10 seconds with this mechanic, there's just no benefit in making it 
 
 ---
 This is the first museum project Petricore worked on!
