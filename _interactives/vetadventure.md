@@ -1,6 +1,6 @@
 ---
 layout: game
-title: Vet Adventure
+title: Georgia Aquarium Vet Adventure
 pitch: Learn the stories of three seals, identify and treat their illnesses
 collection: interactives
 thumbnail: assets/images/interactives/va.jpg
@@ -9,7 +9,7 @@ published: false
 --- 
 ## [Georgia Aquarium](https://www.georgiaaquarium.org/)
 
-Our objectives were:
+Objectives:
 - Tell the story of 3 seals rescued by the aquarium
 - Teach players how a seal could be rescued
 
@@ -19,7 +19,7 @@ I often like to think of these sorts of interactives as games, where the whole g
 
 Here's an example of one such mechanic, scissors:
 [MECHANIC GIF]
-We discussed having a secondary interaction, something like tapping to make the scissors cut, but decided against it. Since the user spends maybe 10 seconds with this mechanic, there's just no benefit in making it 
+We discussed having a secondary interaction, something like tapping to make the scissors cut, but decided against it. Since the user spends maybe 10 seconds with this mechanic, there's just no need to make it any more complicated; using scissors in this fashion is enough to convey the point.
 
 ---
 This is the first museum project Petricore worked on!
