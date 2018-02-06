@@ -28,11 +28,13 @@ After the user has selected a category and a subcategory, they begin to create t
 3. Take a picture of yourself (using a webcam)
 4. Email it (enter your email)
 
-We then send the personalized postcard to the appropriate email address. This literally gives the user something to take home with them, a gentle reminder of their pledge to help the environment. We send the key aspects of their pledge, category and subcategory, over to the display applcation.
+We then send the personalized postcard to the appropriate email address. This literally gives the user something to take home with them, a gentle reminder of their pledge to help the environment. We send the key aspects of their pledge (name, category, and subcategory) over to the display applcation.
 
 ### Display -- Sense of Community
-[demo gif explan-o]
-[DEMO GIF OF DISPLAY]
+Here's an example of what would be shown if I pledged to "Use Renewable Energy Sources".
+<div class="aspectratio">
+<img src="/assets/images/interactives/dz-monitor.gif" class="demo-gif">
+</div>
 I was tasked with making the two applications communicate. The client, [Boston Productions](http://www.bostonproductions.com/), provided roughly the following objectives:
 - See what other's have pledged
 - Reset data on a regular or user controlled basis
