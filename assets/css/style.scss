@@ -8,6 +8,16 @@ body {
     font-size: 14px;
 }
 
+// https://codepen.io/maxds/pen/DcveB
+blockquote{    
+    // Defining the box
+    border-left: 15px solid #3F403C;
+    border-right: 2px solid #3F403C;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: #FFF1E3;;
     background: #71736C;
