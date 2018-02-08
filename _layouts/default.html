@@ -10,6 +10,12 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
+    <!-- https://css-tricks.com/essential-meta-tags-social-media/ -->
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.pitch}}">
+    <meta property="og:image" content="{{page.thumbnail}}">
+    <meta property="og:url" content="{{page.url}}">
+
     {% seo %}
   </head>
 
