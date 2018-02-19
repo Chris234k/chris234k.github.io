@@ -15,7 +15,7 @@ Objectives:
 
 The art and design were done by the company that contracted us, [Boston Productions](http://www.bostonproductions.com/). They provide us with graphics, and a wireframes for a general flow (essentially a storyboard). We handle programming and graphics implementation. Design, in this case, is not as extensive as something you might see in a game design document. Specifics for mechanics are not well defined, and often the programmer decides what feels and plays appropriately to the interactive.
 
-I often like to think of these sorts of interactives as games, where the whole game is a tutorial. Play sessions are very short, usually under 10 minutes. Both of these enforce the idea that simplicity in mechanics is key. Introductions to mechanics are often accompanied by text, but no one reads text and some players (kids!) can't read yet. "Show, don't tell"
+I often like to think of these sorts of interactives as games, where the whole game is a tutorial. Play sessions are very short, usually under 10 minutes. Both of these enforce the idea that simplicity in mechanics is key. Introductions to mechanics are often accompanied by text, but no one reads text and some players (kids!) can't. "Show, don't tell"
 
 Here's an example of one such mechanic, scissors:
 <div class="aspectratio">
