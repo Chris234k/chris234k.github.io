@@ -1,6 +1,6 @@
 ---
 layout: game
-title: Georgia Aquarium Vet Adventure
+title: "Georgia Aquarium: Vet Adventure"
 pitch: Learn the stories of three seals, identify and treat their illnesses
 collection: interactives
 thumbnail: assets/images/interactives/va.jpg

@@ -1,6 +1,6 @@
 ---
 layout: game
-title: Detroit Zoo Postcard Pledge
+title: "Detroit Zoo: Postcard Pledge"
 pitch: Pledge to improve yourself and the environment
 collection: interactives
 thumbnail: assets/images/interactives/dz.jpg
