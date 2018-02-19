@@ -57,7 +57,7 @@ a.no-fancy:before {
 a.no-fancy:after {
     content: none;
 }
-// --
+
 
 hr {
     background-color: #71736C;
@@ -69,32 +69,41 @@ hr {
     padding: 0;
 }
 
-#header_wrap {
+#header {
     background: #222222;
     color: #FFF2DC;
+    overflow: hidden; // Prevents <h1> w/ margin-top from creating whitespace between divs
+
+    // Keeping footers at the bottom of the page
+    height: 140px;
 }
 
-#footer_wrap {
+#footer {
     background: #222222;
+    
+    // Keeping footers at the bottom of the page
+    height: 80px;
 }
 
-#main_content_wrap {
+#body {
     background: #FFF1E3;
+    overflow: hidden; // Prevents <h1> w/ margin-top from creating whitespace between divs
+
+    // Keeping footers at the bottom of the page
+    // "Stick Footer with Calc" https://css-tricks.com/couple-takes-sticky-footer/
+    //
+    // body min height = viewport - header - footer height
+    min-height: calc(100vh - 140px - 80px);
 }
 
-#main_content_wrap a { // Differentiate link color from background color
+#body a { // Differentiate link color from background color
     color: #3F403C;
 }
 
-.outer {
-    background: #222222;
-}
-
 .inner {
-    position: relative;
+    // position: relative;
     max-width: 640px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 .center-cropped {

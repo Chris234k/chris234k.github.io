@@ -16,6 +16,8 @@ try to order by precedence
 
 - loop twitter embedded gif by default
 
+- Google analytics https://desiredpersona.com/google-analytics-jekyll/
+
 -----------------------------------------------------------------------
 #### Games ###
 
