@@ -9,17 +9,18 @@ thumbnail: assets/images/me.jpg
   <h4>Released Video Games</h4>
 </span>
 <div class="row" style="text-align: center;">
-  <!-- a tag with display: block behaves exactly like a div -->
   {% assign games = site.games | sort: 'grid-rank' %}
   {% for game in games %}
-  <a href="{{game.url}}" class="col-md-4 no-fancy" style="display: block; padding-bottom: 30px;">
-    <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
-      <span class="thumbnail_description">
-    	<h4>{{game.title}}</h4>
-    	<p>{{game.pitch}}</p>
-      </span>
-    </div>
-  </a>
+  <div class="col-md-4" style="padding-bottom: 30px;">
+    <a href="{{game.url}}" class="no-fancy">
+      <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
+	<span class="thumbnail_description">
+    	  <h4>{{game.title}}</h4>
+    	  <p>{{game.pitch}}</p>
+	</span>
+      </div>
+    </a>
+  </div>
   {% endfor %}
 </div>
 
@@ -30,17 +31,18 @@ thumbnail: assets/images/me.jpg
     <h4>Museums, Zoos, Apps</h4>
 </span>
 <div class="row" style="text-align: center;">
-  <!-- a tag with display: block behaves exactly like a div -->
   {% assign ints = site.interactives | sort: 'grid-rank' %}
   {% for int in ints %}
-  <a href="{{int.url}}" class="col-md-4 no-fancy" style="display: block; padding-bottom: 30px;">
-    <div class="center-cropped" style="background-image: url({{int.thumbnail}});">
-      <span class="thumbnail_description">
-    	<h4>{{int.title}}</h4>
-    	<p>{{int.pitch}}</p>
-      </span>
-    </div>
-  </a>
+  <div class="col-md-4" style="padding-bottom: 30px;">
+    <a href="{{int.url}}" class="no-fancy">
+      <div class="center-cropped" style="background-image: url({{int.thumbnail}});">
+	<span class="thumbnail_description">
+    	  <h4>{{int.title}}</h4>
+    	  <p>{{int.pitch}}</p>
+	</span>
+      </div>
+    </a>
+  </div>
   {% endfor %}
 </div>
 <hr/>
@@ -50,16 +52,17 @@ thumbnail: assets/images/me.jpg
     <h4>Game Jams, Personal Projects, Unreleased Games</h4>
 </span>
 <div class="row" style="text-align: center;">
-  <!-- a tag with display: block behaves exactly like a div -->
   {% assign exps = site.experimental | sort: 'grid-rank' %}
   {% for exp in exps %}
-  <a href="{{exp.url}}" class="col-md-4 no-fancy" style="display: block; padding-bottom: 30px;">
-    <div class="center-cropped" style="background-image: url({{exp.thumbnail}});">
-      <span class="thumbnail_description">
-    	<h4>{{exp.title}}</h4>
-    	<p>{{exp.pitch}}</p>
-      </span>
-    </div>
-  </a>
+  <div class="col-md-4" style="padding-bottom: 30px;">
+    <a href="{{exp.url}}" class="no-fancy">
+      <div class="center-cropped" style="background-image: url({{exp.thumbnail}});">
+	<span class="thumbnail_description">
+    	  <h4>{{exp.title}}</h4>
+    	  <p>{{exp.pitch}}</p>
+	</span>
+      </div>
+    </a>
+  </div>
   {% endfor %}
 </div>
