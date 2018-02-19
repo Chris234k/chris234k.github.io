@@ -2,7 +2,6 @@ todo
 try to order by precedence
 -----
 
-- create layout for sections: interactives, jams / experimental / misc
 -- should probably include traveling merchant in jams / experimental (due to unreleased)
 
 - add space between grid thumbnails (current ones expand so are clickable outside visuals)
@@ -11,7 +10,7 @@ try to order by precedence
 - "demo-gif" class works for all images (see postcardpledge), consider rename
 
 - DESIGN (removed slate stylesheet)
--- header & footer style (footer needs love: http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page bootstrap also has a 'sticky footer')
+-- Vertically align the footer text (it's harder than you want it to be)
 -- home button (name doesn't read as button)
 
 - loop twitter embedded gif by default
