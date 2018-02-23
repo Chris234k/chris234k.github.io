@@ -11,13 +11,14 @@ published: false
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
 [NEEDS QA]
-Publishing deal had ended with our previous partner. Maybe half way through development, we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at GDC, and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
+The publishing deal had ended with our previous partner. Maybe half way through development, we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at GDC, and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 
-We've been through quite a few iterations. Let me take you on a small journey through Battery Boy's development.
+[GAMEPLAY GIF]
+Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development and show you some of the other ways the game stands out.
 
 
 
-### Rhythmic Roots
+### Rhythmic Roots -- September 2016
 At it's conception, and through a lot of it's development, we thought Battery Boy would be a rhythm game with a cool twist: battery life.
 [BFIG BOY GAMEPLAY]
 [EXPLANATION OF RHYTHM]
@@ -25,17 +26,21 @@ If this description isn't clear, or maybe just doesn't sound that great, don't w
 
 
 
-### Crazy Currencies
-A little unsure what to do with rhythm, we explored other ways of using the battery life mechanic. We spoke with some of the local game developers at the Indie Game Collective, or [IGC](http://www.indiegamecollective.org/). They echoed our concerns about having rhythm. They didn't understand how it fit into the game either. One of the developers proposed tying the battery life mechanic to the currency collection. He suggested to tier battery life (low, medium, high) and only be able to get certain types of currency at current tiers. This idea stuck. Mobile games commonly have at least 2 types of currency anyway: premium and in-game currency. Premium costs real money or ads to obtain. While "in-game" can come in many forms [FIRE EMBLEM] [ANIMAL CROSSING].
+### Crazy Currencies -- February 2017
+A little unsure what to do with rhythm, we explored other ways of using the battery life mechanic. We spoke with some of the local game developers at the [Indie Game Collective](http://www.indiegamecollective.org/). They echoed our concerns about having rhythm; they didn't understand how it fit into the game either. One of the developers proposed creating a meta game around the battery life of the device; using it for progression instead of gameplay. This idea stuck. We thought to split battery life into tiers: green, yellow, and red. Tiers correspond with percentage of battery remaining, i.e. less than 33% would be red. Each tier would have a single type of currency you could only obtain by playing at that battery tier. These currencies would be used to purchase certain types of items, ex: some characters cost 400 green and 100 red, but 0 yellow.
 
-This led us to something closer to a material crafting system. Which is how I'd classify both of those games [BOTH IMPLIES ABOVE GAMES]. Having something sufficiently interesting to replace it, it's at this point that we felt confident enough to ditch rhythm.
+Mobile games commonly have at least 2 types of currency anyway: premium and in-game currency. Premium costs real money or ads to obtain. While "in-game" can come in many forms [FIRE EMBLEM] [ANIMAL CROSSING]. This led us to something closer to a material crafting system. Which is how I'd classify both of those games [BOTH IMPLIES ABOVE GAMES]. Having something sufficiently interesting to replace it, it's at this point that we felt confident enough to ditch rhythm.
 
 
 
-### Something About Identity (I'm out of alliterations)
+### Finalizing Ideas -- From February 2017 to October 2017
+(I'm out of alliterations for headings)
+
 We tried to repurpose old ideas and create new ones around the core twist: device battery life changes the game. We settled on two primary implementations:
 1. Gameplay is harder at lower battery
 2. Currency can only be obtained at certain battery tiers
+[WELL HOW IS THE GAMEPLAY HARDER, HUH?]
+[WHAT EVEN ARE CURRENCIES?]
 
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
 [SHOP DEMO]
@@ -44,10 +49,28 @@ Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](
 [POWERUPS]
 [A GIF FOR EACH POWERUP?]
 
+When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual slot machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based:
+[PINBALL DEMO]
+When making a minigame, I always have this concern: it is just ANOTHER set of mechanics for players to bounce off of. Thankfully, pinball still seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
 
-### A Tiny Postmortem
-- Battery Boy stands as a solid and varied take on the endless runner genre. Which is increasingly more difficult to do, given the saturation of the genre.
+The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
+[WATCH AD PROMPT]
+Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
+
+
+
+### Chinese Release -- October 2017
+[THE STATE THE GAME WAS IN AT RELEASE]
+[LITTLE BIT OF DATA]
+[THINGS I WANTED TO CHANGE?]
+[TALK ABOUT THE UPDATES?]
+
+
+
+### A Tiny Postmortem -- February 2018
+- Battery Boy stands as a solid and varied take on an endless runner. Which is increasingly more difficult to do, given the saturation of the genre.
 - I wish we'd gone further with the "currencies as materials" concept. The current system strikes me as an awkward halfway point that comes with more confusion than either extreme.
 - Difficulty increasing with lower battery is too subtle. I worry many players don't notice it. Doesn't mean the game needs to be harder, just that the visual effect should be more pronounced.
-- Being able to connect to Facebook and get rewarded for beating your friends scores is seriously cool. Worth exploring in other games. Works especially well because you run past your friends' high scores, might be difficult to implement in more abstract scoring games.
+- Being able to connect to Facebook and get rewarded for beating your friends scores is seriously cool. Worth exploring in other games. Works especially well because you move past your friends' high scores; might be difficult to implement in more abstract scoring games.
 - We're at least partially guilty of the [second-system effect](https://en.wikipedia.org/wiki/Second-system_effect) on the shop. Just because we could build a shop doesn't mean we should have. Basically, time would have been better spent making the battery life more pronounced.
+- Two major holiday updates were planned to shortly follow the release: Halloween and Christmas. Neither update occurred. A non-trivial amount of work was put into these: 3d models for accesories, skins for many characters, etc. Not much to say, it just sucks.
