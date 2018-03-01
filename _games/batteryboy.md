@@ -28,8 +28,9 @@ If this description isn't clear, or maybe just doesn't sound that great, don't w
 
 ### Crazy Currencies -- February 2017
 A little unsure what to do with rhythm, we explored other ways of using the battery life mechanic. We spoke with some of the local game developers at the [Indie Game Collective](http://www.indiegamecollective.org/). They echoed our concerns about having rhythm; they didn't understand how it fit into the game either. One of the developers proposed creating a meta game around the battery life of the device; using it for progression instead of gameplay. This idea stuck. We thought to split battery life into tiers: green, yellow, and red. Tiers correspond with percentage of battery remaining, i.e. less than 33% would be red. Each tier would have a single type of currency you could only obtain by playing at that battery tier. These currencies would be used to purchase certain types of items, ex: some characters cost 400 green and 100 red, but 0 yellow.
+[BATTERY BAR FULL TO EMPTY GIF]
 
-Mobile games commonly have at least 2 types of currency anyway: premium and in-game currency. Premium costs real money or ads to obtain. While "in-game" can come in many forms [FIRE EMBLEM] [ANIMAL CROSSING]. This led us to something closer to a material crafting system. Which is how I'd classify both of those games [BOTH IMPLIES ABOVE GAMES]. Having something sufficiently interesting to replace it, it's at this point that we felt confident enough to ditch rhythm.
+Mobile games commonly have at least 2 types of currencies anyway: premium and in-game currency. Premium costs real money or ads to obtain. While "in-game" can come in many forms [FIRE EMBLEM] [ANIMAL CROSSING]. This led us to something closer to a material crafting system. Which is how I'd classify both of those games [BOTH IMPLIES ABOVE GAMES]. Having something sufficiently interesting to replace it, it's at this point that we felt confident enough to ditch rhythm.
 
 
 
@@ -49,7 +50,7 @@ Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](
 [POWERUPS]
 [A GIF FOR EACH POWERUP?]
 
-When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual slot machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based:
+When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based:
 [PINBALL DEMO]
 When making a minigame, I always have this concern: it is just ANOTHER set of mechanics for players to bounce off of. Thankfully, pinball still seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
 
