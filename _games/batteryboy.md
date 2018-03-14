@@ -56,19 +56,33 @@ We tried to repurpose old ideas and create new ones around the core twist: devic
 [WHAT EVEN ARE CURRENCIES?]
 
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
-[GIF - SHOP DEMO]
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/shop.mp4"></video>
+</div>
 [SHOP EXPLANO] x characters, x skins, x accessories, x songs
 
-[POWERUPS]
-[GIF - FOR EACH POWERUP?]
+[TODO: WHY ARE ALL VIDEOS CENTERED HORIZONTALLY]
+[CONSIDER TURNING THESE INTO A SINGLE VIDEO WITH 3 PARTS]
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/powerup-boost.mp4"></video>
+<video autoplay loop src="/assets/images/batteryboy/powerup-shield.mp4"></video>
+<video autoplay loop src="/assets/images/batteryboy/powerup-magnet.mp4"></video>
+</div>
+[POWERUP EXPLANO]
 
-When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based:
-[GIF - PINBALL DEMO]
-When making a minigame, I always have this concern: it is just ANOTHER set of mechanics for players to bounce off of. Thankfully, pinball still seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
+When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based---- pinball!
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/pinball.mp4"></video>
+</div>
+When making a minigame, I always have this concern: it is just _another_ set of mechanics for players to bounce off of. Thankfully, pinball seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
 
 The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
-[GIF - WATCH AD PROMPT]
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/ad-prompt.mp4"></video>
+</div>
 Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
+
+[FACEBOOK HIGH SCORES?]
 
 ---
 
