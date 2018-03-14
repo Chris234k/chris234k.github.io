@@ -6,13 +6,13 @@ collection: games
 thumbnail: assets/images/batteryboy/thumbnail.png
 trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
 grid-rank: 0
-published: true
+published: false
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
 The publishing deal had ended with our previous partner. Maybe half way through development we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at [GDC](http://www.gdconf.com/), and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 
-[GAMEPLAY GIF]
+[GIF - GAMEPLAY, IS THE TRAILER ABOVE ENOUGH?]
 Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development!
 
 ---
@@ -56,18 +56,18 @@ We tried to repurpose old ideas and create new ones around the core twist: devic
 [WHAT EVEN ARE CURRENCIES?]
 
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
-[SHOP DEMO]
+[GIF - SHOP DEMO]
 [SHOP EXPLANO] x characters, x skins, x accessories, x songs
 
 [POWERUPS]
-[A GIF FOR EACH POWERUP?]
+[GIF - FOR EACH POWERUP?]
 
 When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based:
-[PINBALL DEMO]
+[GIF - PINBALL DEMO]
 When making a minigame, I always have this concern: it is just ANOTHER set of mechanics for players to bounce off of. Thankfully, pinball still seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
 
 The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
-[WATCH AD PROMPT]
+[GIF - WATCH AD PROMPT]
 Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
 
 ---
