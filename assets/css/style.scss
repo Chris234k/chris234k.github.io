@@ -31,27 +31,22 @@ blockquote{
 // --
 a {
     color: #FFF2DC;
-    font-weight: bold;
 }
 
 a:hover {
     color: #71736C;
-    font-weight: bold;
 }
 
 a:active {
     color: #71736C;
-    font-weight: bold;
 }
 
 a:before {
     content: '[';
-    font-weight: bold;
 }
 
 a:after {
     content: ']';
-    font-weight: bold;
 }
 
 // a tag w/o [ link ] formatting
