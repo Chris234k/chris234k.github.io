@@ -10,15 +10,14 @@ published: false
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
-The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at [GDC](http://www.gdconf.com/), and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
-
-[GIF - GAMEPLAY, IS THE TRAILER ABOVE ENOUGH?]
 Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development!
 
+[TODO: Move into the later portion of the page?]
+The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at [GDC](http://www.gdconf.com/), and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 ---
 
 ### Rhythmic Roots -- August 2016
-The way we usually decide what games to work on is just by having game jams. These happen irregularly, maybe once every few months. If something interesting comes out of one we'll discuss and explore the idea more. Inside the monolithic Google Drive folder structure Petricore calls home there lies a folder "19 Aug 2016 Game Jam" which contains some of the very first assets for Battery Boy. Here's one such asset:
+Game jams at Petricore happen irregularly, maybe once every few months. If something interesting comes out of one we'll discuss and explore the idea more. Inside the monolithic Google Drive folder structure Petricore calls home there lies a folder "19 Aug 2016 Game Jam" which contains some of the very first assets for Battery Boy. Here's one such asset:
 <div class="aspectratio">
 <img src="/assets/images/batteryboy/early-concept.jpg" class="demo-gif">
 </div>
@@ -30,7 +29,7 @@ At its conception, and through a lot of development, we thought Battery Boy woul
 </div>
 You can't hear it (because the recording has no sound), but the movement of those green blocks is tied to the rhythm of the song. 
 [WIP -- EXPLANATION OF RHYTHM]
-At one point we even had [WWise](https://www.audiokinetic.com/products/wwise/) integration with MIDI tracks. The player could unlock instruments to use in place of the default configuations. This idea may sound good, but it didn't result in very good sounding music. Plus, of all platforms, mobile is probably the one you're least likely to have your game sound on.
+At one point we even had [Wwise](https://www.audiokinetic.com/products/wwise/) integration with MIDI tracks. The player could unlock instruments to use in place of the default configuations. This idea may sound good, but it didn't result in very good sounding music. Plus, of all platforms, mobile is probably the one you're least likely to have your game sound on.
 
 If this description isn't clear, or maybe just doesn't sound that great, don't worry. Most people just weren't getting it, and with a closer look, we weren't really either. In the back of all our minds was the thought to remove rhythm entirely. The only thing stopping us was the amount of work we'd already put into it.
 
