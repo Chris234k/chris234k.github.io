@@ -13,7 +13,7 @@ published: false
 Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development!
 
 [TODO: Move into the later portion of the page?]
-The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at [GDC](http://www.gdconf.com/) [TODO: WHAT YEAR WAS IT], and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
+The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at [GDC](http://www.gdconf.com/) 2017, and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 ---
 
 ### Rhythmic Roots -- August 2016
