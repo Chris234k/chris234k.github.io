@@ -4,65 +4,68 @@ thumbnail: assets/images/me.jpg
 ---
 <!-- "thumbnail" above is for use with Open Graph Protocol, see default.html <head> -->
 
-<span style="text-align: center;">
-  <h1>Games</h1>
-  <h4>Released Video Games</h4>
-</span>
-<div class="row" style="text-align: center;">
-  {% assign games = site.games | sort: 'grid-rank' %}
-  {% for game in games %}
-  <div class="col-md-4" style="padding-bottom: 30px;">
-    <a href="{{game.url}}" class="no-fancy">
-      <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
-	<span class="thumbnail_description">
-    	  <h4>{{game.title}}</h4>
-    	  <p>{{game.pitch}}</p>
-	</span>
-      </div>
-    </a>
+<!-- Undo the padding set by the default layout. I prefer grid elements touch the edge of the page -->
+<div style="margin-left: -15px; margin-right: -15px;">
+  <span style="text-align: center;">
+    <h1>Games</h1>
+    <h4>Released Video Games</h4>
+  </span>
+  <div class="row" style="text-align: center;">
+    {% assign games = site.games | sort: 'grid-rank' %}
+    {% for game in games %}
+    <div class="col-md-4" style="padding-bottom: 30px;">
+      <a href="{{game.url}}" class="no-fancy">
+        <div class="center-cropped" style="background-image: url({{game.thumbnail}});">
+    <span class="thumbnail_description">
+          <h4>{{game.title}}</h4>
+          <p>{{game.pitch}}</p>
+    </span>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 
-<hr/>
+  <hr/>
 
-<span style="text-align: center;">
-  <h1>Interactives</h1>
-    <h4>Museums, Zoos, Apps</h4>
-</span>
-<div class="row" style="text-align: center;">
-  {% assign ints = site.interactives | sort: 'grid-rank' %}
-  {% for int in ints %}
-  <div class="col-md-4" style="padding-bottom: 30px;">
-    <a href="{{int.url}}" class="no-fancy">
-      <div class="center-cropped" style="background-image: url({{int.thumbnail}});">
-	<span class="thumbnail_description">
-    	  <h4>{{int.title}}</h4>
-    	  <p>{{int.pitch}}</p>
-	</span>
-      </div>
-    </a>
+  <span style="text-align: center;">
+    <h1>Interactives</h1>
+      <h4>Museums, Zoos, Apps</h4>
+  </span>
+  <div class="row" style="text-align: center;">
+    {% assign ints = site.interactives | sort: 'grid-rank' %}
+    {% for int in ints %}
+    <div class="col-md-4" style="padding-bottom: 30px;">
+      <a href="{{int.url}}" class="no-fancy">
+        <div class="center-cropped" style="background-image: url({{int.thumbnail}});">
+    <span class="thumbnail_description">
+          <h4>{{int.title}}</h4>
+          <p>{{int.pitch}}</p>
+    </span>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
-<hr/>
+  <hr/>
 
-<span style="text-align: center;">
-  <h1>Experimental</h1>
-    <h4>Game Jams, Personal Projects, Unreleased Games</h4>
-</span>
-<div class="row" style="text-align: center;">
-  {% assign exps = site.experimental | sort: 'grid-rank' %}
-  {% for exp in exps %}
-  <div class="col-md-4" style="padding-bottom: 30px;">
-    <a href="{{exp.url}}" class="no-fancy">
-      <div class="center-cropped" style="background-image: url({{exp.thumbnail}});">
-	<span class="thumbnail_description">
-    	  <h4>{{exp.title}}</h4>
-    	  <p>{{exp.pitch}}</p>
-	</span>
-      </div>
-    </a>
+  <span style="text-align: center;">
+    <h1>Experimental</h1>
+      <h4>Game Jams, Personal Projects, Unreleased Games</h4>
+  </span>
+  <div class="row" style="text-align: center;">
+    {% assign exps = site.experimental | sort: 'grid-rank' %}
+    {% for exp in exps %}
+    <div class="col-md-4" style="padding-bottom: 30px;">
+      <a href="{{exp.url}}" class="no-fancy">
+        <div class="center-cropped" style="background-image: url({{exp.thumbnail}});">
+    <span class="thumbnail_description">
+          <h4>{{exp.title}}</h4>
+          <p>{{exp.pitch}}</p>
+    </span>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>

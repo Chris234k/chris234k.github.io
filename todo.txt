@@ -2,7 +2,6 @@ todo
 try to order by precedence
 -----
 
-- About page needs spacing along sides
 - CLICK TO ENLARGE IMAGES (HOW DID I NOT THINK ABOUT THIS)
 - should probably include traveling merchant in jams / experimental (due to unreleased)
 - scale grid thumbnails down with screen (mobile looks eh) to reveal more of the image
