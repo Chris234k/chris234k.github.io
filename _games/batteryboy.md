@@ -53,15 +53,15 @@ This led us to something closer to a material crafting system, which is the cate
 The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC](http://www.gdconf.com/) 2017 and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It is there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 
 A brief publishing timeline:
- March 2, 2017 - The Big Indie Pitch
- March 6, 2017 - First build sent to iDreamSky
- March 16, 2017 - iDreamSky expresses interest in working with us
- May 19, 2017 - Begin discussing release plans
- June 10, 2017 - Monetization, SDK integration, localization, bugs, etc (the meat of dev time)
- September 9, 2017 - Marketing assets, bugs
- September 28, 2017 - Trailer complete (by Sarah Spiers & Renzo Heredia)
- October 30, 2017 - Release
- November 3, 2017 - Best New Games feature by Apple
+- March 2, 2017 - The Big Indie Pitch
+- March 6, 2017 - First build sent to iDreamSky
+- March 16, 2017 - iDreamSky expresses interest in working with us
+- May 19, 2017 - Begin discussing release plans
+- June 10, 2017 - Monetization, SDK integration, localization, bugs, etc (the meat of dev time)
+- September 9, 2017 - Marketing assets, bugs
+- September 28, 2017 - Trailer complete (by Sarah Spiers & Renzo Heredia)
+- October 30, 2017 - Release
+- November 3, 2017 - Best New Games feature by Apple
  
 ---
 
@@ -84,15 +84,17 @@ Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](
 <div class="aspectratio">
 <video autoplay loop src="/assets/images/batteryboy/powerup-boost.mp4"></video>
 </div>
+Hit a boost to fly through obstacles!
 
 <div class="aspectratio">
 <video autoplay loop src="/assets/images/batteryboy/powerup-shield.mp4"></video>
 </div>
+Pickup a shield to take 1 extra hit!
 
 <div class="aspectratio">
 <video autoplay loop src="/assets/images/batteryboy/powerup-magnet.mp4"></video>
 </div>
-[TODO: POWERUP EXPLANO]
+Magnet's pull nearby coins to you. Never miss another coin!
 
 When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based---- pinball!
 <div class="aspectratio">
