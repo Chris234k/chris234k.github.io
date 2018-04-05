@@ -10,10 +10,10 @@ published: false
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
-Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development!
+Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development! 
 
-[TODO: Move into the later portion of the page?]
-The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. One of us met with [iDreamSky](http://www.idreamsky.com/en) at [GDC](http://www.gdconf.com/) 2017, and the rest is history. iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
+...One last thing before we go: Petricore does not work on games full time. This timeline is filled with months (years?) of contract work. We've had months where we almost exclusively worked on Battery Boy, and months where no more than a few days were spent on it. Just something to keep in mind if you're trying to plan your own mobile game timeline :).
+
 ---
 
 ### Rhythmic Roots -- August 2016
@@ -46,6 +46,23 @@ Mobile games commonly have at least 2 types of currencies anyway: premium and in
 </div>
 This led us to something closer to a material crafting system, which is the category I'd put Animal Crossing: Pocket Camp into. Having something sufficiently interesting to replace it, it's at this point that we felt confident enough to ditch rhythm.
 
+---
+
+### Publishing Potential -- March 2017
+
+The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC](http://www.gdconf.com/) 2017 and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It is there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
+
+A brief publishing timeline:
+ March 2, 2017 - The Big Indie Pitch
+ March 6, 2017 - First build sent to iDreamSky
+ March 16, 2017 - iDreamSky expresses interest in working with us
+ May 19, 2017 - Begin discussing release plans
+ June 10, 2017 - Monetization, SDK integration, localization, bugs, etc (the meat of dev time)
+ September 9, 2017 - Marketing assets, bugs
+ September 28, 2017 - Trailer complete (by Sarah Spiers & Renzo Heredia)
+ October 30, 2017 - Release
+ November 3, 2017 - Best New Games feature by Apple
+ 
 ---
 
 ### Finalizing Ideas -- From February 2017 to October 2017
