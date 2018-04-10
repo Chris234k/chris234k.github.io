@@ -12,7 +12,10 @@ thumbnail: assets/images/me.jpg
   </span>
   <div class="row" style="text-align: center;">
     {% assign games = site.games | sort: 'grid-rank' %}
-    {% for game in games %}
+      {% for game in games %}
+        {% if game.grid-rank == -1 %}
+          {% continue %}
+        {% endif %}
     <div class="col-md-4" style="padding-bottom: 30px;">
       <a href="{{game.url}}" class="no-fancy">
         <div class="center-cropped" style="background-image: url({{game.thumbnail}});">

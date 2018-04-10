@@ -5,12 +5,12 @@ pitch: An endless runner that changes based on the battery life of your device
 collection: games
 thumbnail: assets/images/batteryboy/thumbnail.png
 trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
-grid-rank: 0
-published: false
+grid-rank: -1
+published: true
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
-Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While dragging to move is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Let me take you on a small journey through Battery Boy's development! 
+Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While releasing your finger to stop is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Instead, let me take you on a small journey through Battery Boy's development!
 
 ...One last thing before we go: Petricore does not work on games full time. This timeline is filled with months (years?) of contract work. We've had months where we almost exclusively worked on Battery Boy, and months where no more than a few days were spent on it. Just something to keep in mind if you're trying to plan your own mobile game timeline :).
 
@@ -50,18 +50,18 @@ This led us to something closer to a material crafting system, which is the cate
 
 ### Publishing Potential -- March 2017
 
-The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC](http://www.gdconf.com/) 2017 and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It is there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
+The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC 2017](http://www.gdconf.com/) and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It is there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 
-A brief publishing timeline:
-- March 2, 2017 - The Big Indie Pitch
-- March 6, 2017 - First build sent to iDreamSky
-- March 16, 2017 - iDreamSky expresses interest in working with us
-- May 19, 2017 - Begin discussing release plans
-- June 10, 2017 - Monetization, SDK integration, localization, bugs, etc (the meat of dev time)
-- September 9, 2017 - Marketing assets, bugs
-- September 28, 2017 - Trailer complete (by Sarah Spiers & Renzo Heredia)
-- October 30, 2017 - Release
-- November 3, 2017 - Best New Games feature by Apple
+A brief publishing timeline (all dates in 2017):
+- March 2 - The Big Indie Pitch
+- March 6 - First build sent to iDreamSky
+- March 16 - iDreamSky expresses interest in working with us
+- May 19 - Begin discussing release plans
+- June 10 - Monetization, SDK integration, localization, bugs, etc (the meat of dev time)
+- September 9 - Marketing assets, bugs
+- September 28 - Trailer complete (by [Sarah Spiers](https://twitter.com/sspiers_k) & [Renzo Heredia](https://twitter.com/RenzoGHeredia))
+- October 30 - Chinese Release
+- November 3 - "Best New Games" feature by Apple
  
 ---
 
@@ -71,7 +71,6 @@ A brief publishing timeline:
 We tried to repurpose old ideas and create new ones around the core twist: device battery life changes the game. We settled on two primary implementations:
 1. Gameplay is harder at lower battery
 2. Currency can only be obtained at certain battery tiers
-[TODO: WELL HOW IS THE GAMEPLAY HARDER, HUH?]
 
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
 <div class="aspectratio">
@@ -114,9 +113,7 @@ Offer the user an ad to revive and continue playing. Works great when score is s
 
 ### Chinese Release -- October 2017
 TODO:
-[THE STATE THE GAME WAS IN AT RELEASE]
 [LITTLE BIT OF DATA]
-[TALK ABOUT THE UPDATES?]
 [STILL NOT FULLY RELEASED]
 
 ---
