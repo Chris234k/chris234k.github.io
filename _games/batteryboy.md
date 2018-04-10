@@ -6,7 +6,7 @@ collection: games
 thumbnail: assets/images/batteryboy/thumbnail.png
 trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
 grid-rank: -1
-published: true
+published: false
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
@@ -35,7 +35,7 @@ If you're thinking "Huh? How do those blocks move with the rhythm?", don't worry
 ---
 
 ### Crazy Currencies -- February 2017
-A little unsure what to do with rhythm, we explored other ways of using the battery life mechanic. We spoke with some local game developers at the [Indie Game Collective](http://www.indiegamecollective.org/). They echoed our concerns about having rhythm; they didn't know how it fit into the game either. One of the developers proposed creating a meta game around the battery life of the device; using it for progression instead of gameplay. This idea stuck. We already had battery life split into tiers: green, yellow, and red. Tiers correspond with percentage of battery remaining, i.e. battery life of 20% would be red. Each tier would gain a single type of currency you could only obtain by playing at that battery tier. These currencies would be used to purchase certain types of items, for example: some characters cost 400 green and 100 red, but 0 yellow.
+A little unsure what to do with rhythm, we explored other ways of using the battery life mechanic. We spoke with some local game developers at the [Indie Game Collective](http://www.indiegamecollective.org/). They echoed our concerns about having rhythm; they didn't know how it fit into the game either. One of the developers proposed creating a metagame around the battery life of the device; using it for progression instead of gameplay. This idea stuck. We already had battery life split into tiers: green, yellow, and red. Tiers correspond with percentage of battery remaining, i.e. battery life of 20% would be red. Each tier would gain a single type of currency you could only obtain by playing at that battery tier. These currencies would be used to purchase certain types of items, for example: some characters cost 400 green and 100 red, but 0 yellow.
 <div>
 <img src="/assets/images/batteryboy/bar.gif" class="demo-gif" style="max-width:150px">
 </div>
@@ -48,7 +48,68 @@ This led us to something closer to a material crafting system, which is the cate
 
 ---
 
+### Finalizing Ideas -- February 2017 to October 2017
+(I'm out of alliterations for headings)
+
+We tried to repurpose old ideas and create new ones around the core twist: device battery life changes the game. We settled on two primary implementations:
+1. Currencies can only be obtained at certain battery tiers (green at high battery, etc)
+2. Gameplay is harder at lower battery
+
+Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/shop.mp4"></video>
+</div>
+What we settled on was a shop. The shop contains:
+
+- 10 characters
+- 40 skins (4 unique to each character)
+- 21 accesories (all characters can wear)
+- 2 songs
+
+The player picks a character and can customize them with one item from each type. In the above demo, you see me equip the: cube character, dice skin, and aviator accessory.
+
+[ TODO: Needs minor line break? not the full "---" ???]
+
+Powerups, powerups, powerups. Powerups? We ended up with----what I think----is a fairly standard set of powerups. We settled on three: boost, shield, and magnet. In Battery Boy, you cannot miss any of the powerups. They appear directly in your path and you're pretty much forced to get them. However, which powerup will appear is random. I personally spent a lot of time on the boost and magnet, trying to make them stand out from the rest of the game. You can (hopefully) guess how they work, but here are some demos anyway:
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/powerup-boost.mp4"></video>
+</div>
+Hit a boost to fly through obstacles! -- The player loses control and flys rapidly through a number of obstacles, giving them a bunch of score. (I'm very proud of how the visuals came out on this one!)
+
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/powerup-shield.mp4"></video>
+</div>
+Pickup a shield to take an extra hit! -- A hexagonal shield forms around the player, preventing them from taking any damage. Character begins to blink and then becomes vulernable again after hitting an obstacle.
+
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/powerup-magnet.mp4"></video>
+</div>
+A magnet will pull nearby coins to you. Never miss another coin! -- This is only sort of true, you can actually still miss coins (whoops!). I personally think this is the weakest of the three powerups in terms of gameplay. Part of the way I tried to improve the game feel of the magnet was the animation for collecting a coin. It curves upwards towards its resting place in the UI.
+
+[ TODO: Needs minor line break? not the full "---" ???]
+
+When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based---- pinball!
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/pinball.mp4"></video>
+</div>
+When making a minigame, I always have this concern: it is just _another_ set of mechanics for players to bounce off of. Thankfully, pinball seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
+
+[ TODO: Needs minor line break? not the full "---" ???]
+
+The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
+<div class="aspectratio">
+<video autoplay loop src="/assets/images/batteryboy/ad-prompt.mp4"></video>
+</div>
+Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
+
+[ TODO: Needs minor line break? not the full "---" ???]
+
+[ TODO: Facebook high scores? ]
+
+---
+
 ### Publishing Potential -- March 2017
+(I lied, I found one more alliteration)
 
 The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC 2017](http://www.gdconf.com/) and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It is there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 
@@ -57,64 +118,17 @@ A brief publishing timeline (all dates in 2017):
 - March 6 - First build sent to iDreamSky
 - March 16 - iDreamSky expresses interest in working with us
 - May 19 - Begin discussing release plans
-- June 10 - Monetization, SDK integration, localization, bugs, etc (the meat of dev time)
+- June 10 - Monetization, design feedback, SDK integration, localization, bugs, etc (the meat of dev time)
 - September 9 - Marketing assets, bugs
 - September 28 - Trailer complete (by [Sarah Spiers](https://twitter.com/sspiers_k) & [Renzo Heredia](https://twitter.com/RenzoGHeredia))
 - October 30 - Chinese Release
 - November 3 - "Best New Games" feature by Apple
  
----
+That puts us at just about 8 months of time between first contact and Chinese release. It is at this point that I want to mention again, that we do not work on games full time a Petricore. The work here is less than 2 months of dev hours. We were working on a number of work for hire projects at the same time, the summer was quite busy for us!
 
-### Finalizing Ideas -- From February 2017 to October 2017
-(I'm out of alliterations for headings)
-
-We tried to repurpose old ideas and create new ones around the core twist: device battery life changes the game. We settled on two primary implementations:
-1. Gameplay is harder at lower battery
-2. Currency can only be obtained at certain battery tiers
-
-Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
-<div class="aspectratio">
-<video autoplay loop src="/assets/images/batteryboy/shop.mp4"></video>
-</div>
-[SHOP EXPLANO] x characters, x skins, x accessories, x songs
-
-[TODO: WHY ARE ALL VIDEOS CENTERED HORIZONTALLY]
-[TODO: OPTIONS: COMBINE INTO 1 VIDEO || EXPLAIN EACH SEPARATELY]
-<div class="aspectratio">
-<video autoplay loop src="/assets/images/batteryboy/powerup-boost.mp4"></video>
-</div>
-Hit a boost to fly through obstacles!
-
-<div class="aspectratio">
-<video autoplay loop src="/assets/images/batteryboy/powerup-shield.mp4"></video>
-</div>
-Pickup a shield to take 1 extra hit!
-
-<div class="aspectratio">
-<video autoplay loop src="/assets/images/batteryboy/powerup-magnet.mp4"></video>
-</div>
-Magnet's pull nearby coins to you. Never miss another coin!
-
-When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based---- pinball!
-<div class="aspectratio">
-<video autoplay loop src="/assets/images/batteryboy/pinball.mp4"></video>
-</div>
-When making a minigame, I always have this concern: it is just _another_ set of mechanics for players to bounce off of. Thankfully, pinball seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
-
-The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
-<div class="aspectratio">
-<video autoplay loop src="/assets/images/batteryboy/ad-prompt.mp4"></video>
-</div>
-Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
-
-[TODO: FACEBOOK HIGH SCORES?]
-
----
-
-### Chinese Release -- October 2017
-TODO:
-[LITTLE BIT OF DATA]
-[STILL NOT FULLY RELEASED]
+[ TODO: Little bit of data ]
+[ TODO: Still not fully released ]
+[ TOOD: Updates so far ]
 
 ---
 
