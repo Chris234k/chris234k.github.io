@@ -28,9 +28,9 @@ At its conception, and through a lot of development, we thought Battery Boy woul
 <img src="/assets/images/batteryboy/bfig-gameplay.gif" class="demo-gif">
 </div>
 You can't hear it (because the recording has no sound), but the movement of those green blocks is tied to the rhythm of the song.
-At one point we even had [Wwise](https://www.audiokinetic.com/products/wwise/) integration with MIDI tracks. The player could unlock instruments to use in place of the default configuations. This idea may sound good, but it didn't result in very good sounding music. Plus, who keeps their sound on while playing mobile games?.
+At one point we even had [Wwise](https://www.audiokinetic.com/products/wwise/) integration with MIDI tracks. The player could unlock instruments to use in place of the default configuations. This idea may sound good, but it didn't result in very good sounding music. Plus, who keeps their sound on while playing mobile games?. I am not saying "don't make mobile rhythm games", there are plenty of examples to the contrary! Just that with our resources (we don't have an internal audio person) and objectives (making an endless runner) we were not able to pull it off. Your milage may vary :)
 
-If you're thinking "Huh? How do those blocks move with the rhythm?", don't worry. Most people just weren't getting it, and with a closer look, we weren't really either. In the back of all our minds was the thought to remove rhythm entirely. The only thing stopping us was the amount of work we'd already put into it.
+If you're thinking "Chris, how do those blocks even move with the rhythm?". Don't worry, many players asked us the same question. In the back of all our minds was the thought to remove rhythm entirely. The only thing stopping us was the amount of work we'd already put into it.
 
 ---
 
