@@ -127,7 +127,9 @@ A brief publishing timeline (all dates in 2017):
 That puts us at just about 8 months of time between first contact and Chinese release. It is at this point that I want to mention again, that we do not work on games full time a Petricore. The work here is less than 2 months of dev hours. We were working on a number of work for hire projects at the same time, the summer was quite busy for us!
 
 [ TODO: Little bit of data ]
+
 [ TODO: Still not fully released ]
+
 [ TOOD: Updates so far ]
 
 ---
