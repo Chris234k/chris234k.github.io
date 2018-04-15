@@ -130,7 +130,7 @@ That puts us at just about 8 months of time between first contact and Chinese re
 
 [ TODO: Still not fully released ]
 
-[ TOOD: Updates so far ]
+[ TODO: Updates so far ]
 
 ---
 
