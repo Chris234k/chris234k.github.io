@@ -6,7 +6,7 @@ collection: games
 thumbnail: assets/images/batteryboy/thumbnail.png
 trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
 grid-rank: -1
-published: false
+published: true
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
