@@ -10,9 +10,11 @@ published: true
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Third Game
-Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles and---- you've probably heard this one before. While releasing your finger to stop is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. Instead, let me take you on a small journey through Battery Boy's development!
+Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles, use powerups, gather coins. Customize your character and get the highest score possible.
 
-...One last thing before we go: Petricore does not work on games full time. This timeline is filled with months (years?) of contract work. We've had months where we almost exclusively worked on Battery Boy, and months where no more than a few days were spent on it. Just something to keep in mind if you're trying to plan your own mobile game timeline :).
+While releasing your finger to stop is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. However, no development process is ever the same. Let me take you on a small journey through Battery Boy's development!
+
+...One last thing before we go: Petricore does not work on games full time. This timeline is filled with months (years?) of contract work. We've had months where we almost exclusively worked on Battery Boy, and months where no more than a few days were spent on it. Just something to keep in mind if you're trying to plan your own game timeline :).
 
 ---
 
