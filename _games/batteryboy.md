@@ -113,7 +113,7 @@ Offer the user an ad to revive and continue playing. Works great when score is s
 ### Publishing Potential -- March 2017
 (I lied, I found one more alliteration)
 
-The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC 2017](http://www.gdconf.com/) and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It is there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
+The publishing deal had ended with our previous partner. Maybe halfway through development we set out to work with another publisher. Our CEO, [Ryan Canuel](https://twitter.com/RyanCanuel), attended [GDC 2017](http://www.gdconf.com/) and presented Battery Boy at [The Big Indie Pitch](http://www.bigindiepitch.com/past-events/). It was there that we first came in contact with [iDreamSky](https://www.idreamsky.com/en). iDreamSky only has publishing interests in China, so we thought it could be a cool opportunity to localize our work and reach a new market.
 
 A brief publishing timeline (all dates in 2017):
 - March 2 - The Big Indie Pitch
