@@ -77,6 +77,7 @@ We tried to repurpose old ideas and create new ones around the core twist: devic
 2. Gameplay is harder at lower battery
 
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
+[ TODO: NONE OF THESE VIDEOS WILL START ON MY PHONE!!! ]
 <div class="aspectratio">
 <video autoplay loop src="/assets/images/batteryboy/shop.mp4"></video>
 </div>
