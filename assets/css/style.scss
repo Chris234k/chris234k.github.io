@@ -169,3 +169,12 @@ hr {
     left: 0;
     top: 0;
 }
+
+// Config for markdown tables
+// One example is in batteryboy.md
+table, th, td {
+    border: 1px solid #222222;
+
+    // Top, right, bottom, left
+    padding: 2px 5px 2px 5px;
+}
