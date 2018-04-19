@@ -75,7 +75,7 @@ hr {
     overflow: hidden; // Prevents <h1> w/ margin-top from creating whitespace between divs
 
     // Keeping footers at the bottom of the page
-    height: 140px;
+    min-height: 140px;
 }
 
 #footer {
