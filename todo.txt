@@ -6,7 +6,6 @@ try to order by precedence
 - should probably include traveling merchant in jams / experimental (due to unreleased)
 - scale grid thumbnails down with screen (mobile looks eh) to reveal more of the image
 - "demo-gif" class works for all images (see postcardpledge), consider rename
-- Vertically align the footer text (it's harder than you want it to be)
 - home button (name doesn't read as button)
 - loop twitter embedded gif by default
 - Google analytics https://desiredpersona.com/google-analytics-jekyll/
