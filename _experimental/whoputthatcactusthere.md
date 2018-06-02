@@ -8,6 +8,8 @@ trailer: https://drive.google.com/file/d/1Ab7ss836Nvp-9xsmx82Zqcp4GEg_GcpR/previ
 ---
 ## [Global Game Jam 2018](https://globalgamejam.org/theme-2018)
 
+The download is available on the [jam page](https://globalgamejam.org/2018/games/who-put-cactus-there)
+
 A large game jam that takes place annually. The theme for 2018 was "transmission". With a team of 2, both of which are programmers, we set out to create something small.
 
 "Who Put That Cactus There" features 4 core mechanics around the ball:
