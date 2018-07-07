@@ -79,7 +79,7 @@ We tried to repurpose old ideas and create new ones around the core twist: devic
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
 [ TODO: NONE OF THESE VIDEOS WILL START ON MY PHONE!!! ]
 <div class="aspectratio">
-<video controls loop src="/assets/images/batteryboy/shop.mp4"></video>
+<video autoplay muted loop src="/assets/images/batteryboy/shop.mp4"></video>
 </div>
 What we settled on was a shop. The shop contains:
 
@@ -94,17 +94,17 @@ The player picks a character and can customize them with one item from each type
 
 Powerups, powerups, powerups. Powerups? We ended up with----what I think----is a fairly standard set of powerups. We settled on three: boost, shield, and magnet. In Battery Boy, you cannot miss any of the powerups. They appear directly in your path and you're pretty much forced to get them. However, which powerup will appear is random. I personally spent a lot of time on the boost and magnet, trying to make them stand out from the rest of the game. You can (hopefully) guess how they work, but here are some demos anyway:
 <div class="aspectratio">
-<video controls loop src="/assets/images/batteryboy/powerup-boost.mp4"></video>
+<video autoplay muted loop src="/assets/images/batteryboy/powerup-boost.mp4"></video>
 </div>
 Hit a boost to fly through obstacles! -- The player loses control and flys rapidly through a number of obstacles, giving them a bunch of score. (I'm very proud of how the visuals came out on this one!)
 
 <div class="aspectratio">
-<video controls loop src="/assets/images/batteryboy/powerup-shield.mp4"></video>
+<video autoplay muted loop src="/assets/images/batteryboy/powerup-shield.mp4"></video>
 </div>
 Pickup a shield to take an extra hit! -- A hexagonal shield forms around the player, preventing them from taking any damage. Character begins to blink and then becomes vulernable again after hitting an obstacle.
 
 <div class="aspectratio">
-<video controls loop src="/assets/images/batteryboy/powerup-magnet.mp4"></video>
+<video autoplay muted loop src="/assets/images/batteryboy/powerup-magnet.mp4"></video>
 </div>
 A magnet will pull nearby coins to you. Never miss another coin! -- This is only sort of true, you can actually still miss coins (whoops!). I personally think this is the weakest of the three powerups in terms of gameplay. Part of the way I tried to improve the game feel of the magnet was the animation for collecting a coin. It curves upwards towards its resting place in the UI.
 
@@ -112,7 +112,7 @@ A magnet will pull nearby coins to you. Never miss another coin! -- This is only
 
 When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based---- pinball!
 <div class="aspectratio">
-<video controls loop src="/assets/images/batteryboy/pinball.mp4"></video>
+<video autoplay muted loop src="/assets/images/batteryboy/pinball.mp4"></video>
 </div>
 When making a minigame, I always have this concern: it is just _another_ set of mechanics for players to bounce off of. Thankfully, pinball seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
 
@@ -120,7 +120,7 @@ When making a minigame, I always have this concern: it is just _another_ set of 
 
 The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
 <div class="aspectratio">
-<video controls loop src="/assets/images/batteryboy/ad-prompt.mp4"></video>
+<video autoplay muted loop src="/assets/images/batteryboy/ad-prompt.mp4"></video>
 </div>
 Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
 
