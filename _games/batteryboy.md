@@ -14,7 +14,7 @@ Battery boy is an endless runner that changes with the battery life of your devi
 
 While releasing your finger to stop is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. However, no development process is ever the same. Let me take you on a small journey through Battery Boy's development!
 
-...One last thing before we go: Petricore does not work on games full time. This timeline is filled with months (years?) of contract work. We've had months where we almost exclusively worked on Battery Boy, and months where no more than a few days were spent on it. Just something to keep in mind if you're trying to plan your own game timeline :).
+... One last thing before we go: Petricore does not work on games full time. This timeline is filled with months (years?) of contract work. We've had months where we almost exclusively worked on Battery Boy, and months where no more than a few days were spent on it. Just something to keep in mind if you're trying to plan your own game timeline :).
 
 ---
 
@@ -48,7 +48,7 @@ Mobile games commonly have at least 2 types of currencies anyway: premium and in
 </div>
 This led us to something closer to a material crafting system, which is the category I'd put Animal Crossing: Pocket Camp into. Having something sufficiently interesting to replace it, it's at this point that we felt confident enough to ditch rhythm. 
 
-...But I'm skipping a lot of details. Removing rhythm took significant time and was not something the team agreed upon all at once. Changing the soul of a game is very difficult on a small team, as we all had a hand in its design. Our lead designer, [Oliver Awat](https://twitter.com/oliverawat), led the charge. He proposed that we essentially go back to prototyping on the core gameplay. As part of that proposal, he created a small spreadsheet to give us a brief look at the impact the changes would have. The contents of that spreadsheet are in the following table (emphasis his):
+... But I'm skipping a lot of details. Removing rhythm took significant time and was not something the team agreed upon all at once. Changing the soul of a game is very difficult on a small team, as we all had a hand in its design. Our lead designer, [Oliver Awat](https://twitter.com/oliverawat), led the charge. He proposed that we essentially go back to prototyping on the core gameplay. As part of that proposal, he created a small spreadsheet to give us a brief look at the impact the changes would have. The contents of that spreadsheet are in the following table (emphasis his):
 
 | Changes                          | Gameplay Mechanics | Visual Changes | Meta  |
 | -------------------------------- | :----------------: | :------------: | :---: |
@@ -77,7 +77,6 @@ We tried to repurpose old ideas and create new ones around the core twist: devic
 2. Gameplay is harder at lower battery
 
 Our previous games, [Mind the Arrow](/games/mindthearrow/) and [Gelato Flicker](/games/gelatoflicker/), lacked complexity within monetization. We wanted to try something more robust.
-[ TODO: NONE OF THESE VIDEOS WILL START ON MY PHONE!!! ]
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/batteryboy/shop.mp4"></video>
 </div>
@@ -89,8 +88,6 @@ What we settled on was a shop. The shop contains:
 - 2 songs
 
 The player picks a character and can customize them with one item from each type. In the above demo, you see me equip the: cube character, dice skin, and aviator accessory.
-
-[ TODO: Needs minor line break? not the full "---" ???]
 
 Powerups, powerups, powerups. Powerups? We ended up with----what I think----is a fairly standard set of powerups. We settled on three: boost, shield, and magnet. In Battery Boy, you cannot miss any of the powerups. They appear directly in your path and you're pretty much forced to get them. However, which powerup will appear is random. I personally spent a lot of time on the boost and magnet, trying to make them stand out from the rest of the game. You can (hopefully) guess how they work, but here are some demos anyway:
 <div class="aspectratio">
@@ -108,23 +105,17 @@ Pickup a shield to take an extra hit! -- A hexagonal shield forms around the pla
 </div>
 A magnet will pull nearby coins to you. Never miss another coin! -- This is only sort of true, you can actually still miss coins (whoops!). I personally think this is the weakest of the three powerups in terms of gameplay. Part of the way I tried to improve the game feel of the magnet was the animation for collecting a coin. It curves upwards towards its resting place in the UI.
 
-[ TODO: Needs minor line break? not the full "---" ???]
-
 When looking at monetization systems for other games, particularly [Crossy Road](http://www.crossyroad.com/) and [Sling Kong](http://protostargames.com/sling-kong/), we noticed that they commonly implement a lottery system to unlock cosmetic items. Crossy Road features an actual prize machine, while Sling Kong is closer to pachinko. We decided to make our version just a bit more skill based---- pinball!
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/batteryboy/pinball.mp4"></video>
 </div>
 When making a minigame, I always have this concern: it is just _another_ set of mechanics for players to bounce off of. Thankfully, pinball seems common or intuitive enough for most people to understand how it works. We deliberately tried to keep it to a "one touch" style of game. But don't misunderstand me, we still had to do several iterations on the tutorial for pinball alone. At some point in development, we decided to split pinball into 3 different cases: green, yellow, and red. The color of the case corresponds to which type of currency you pay to play it.
 
-[ TODO: Needs minor line break? not the full "---" ???]
-
 The success of rewarded video ads in Gelato Flicker led us to bring it into Battery Boy as well. The system is fairly simple to implement, and is very effective. In Gelato Flicker, we saw about 30% of all games played converting to revive ads.
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/batteryboy/ad-prompt.mp4"></video>
 </div>
 Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
-
-[ TODO: Needs minor line break? not the full "---" ???]
 
 [ TODO: Facebook high scores? ]
 
@@ -157,7 +148,7 @@ That puts us at just about 8 months of time between first contact and Chinese re
 ---
 
 ### A Tiny Postmortem -- April 2018
-(The time of writing this post)
+(The time of writing this post) TODO: UHHH WHEN IS THIS RELEASING, AGAIN?
 - Battery Boy stands as a solid and varied take on an endless runner. Which is increasingly more difficult to do, given the saturation of the genre.
 - I wish we'd gone further with the "currencies as materials" concept. The current system strikes me as an awkward halfway point that comes with more confusion than either extreme.
 - Difficulty increasing with lower battery is too subtle. I worry many players don't notice it. Doesn't mean the game needs to be harder, just that the visual effect should be more pronounced.
