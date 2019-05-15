@@ -5,7 +5,7 @@ pitch: An endless runner that changes based on the battery life of your device
 collection: games
 thumbnail: assets/images/batteryboy/thumbnail.png
 trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
-grid-rank: -1
+grid-rank: 4
 published: true
 ---
 
@@ -132,8 +132,6 @@ The success of rewarded video ads in Gelato Flicker led us to bring it into Batt
 </div>
 Offer the user an ad to revive and continue playing. Works great when score is something the player cares about. Supporting this idea, is that you're able to connect to Facebook and see your friends' scores as you pass them.
 
-[ TODO: Facebook high scores? ]
-
 ---
 
 ### Publishing Potential -- March 2017
@@ -154,16 +152,9 @@ A brief publishing timeline (all dates in 2017):
  
 That puts us at just about 8 months of time between first contact and Chinese release. It is at this point that I want to mention again, that we do not work on games full time a Petricore. The work here is less than 2 months of dev hours. We were working on a number of work for hire projects at the same time, the summer was quite busy for us!
 
-[ TODO: Little bit of data ]
-
-[ TODO: Still not fully released ]
-
-[ TODO: Updates so far ]
-
 ---
 
 ### A Tiny Postmortem -- April 2018
-(The time of writing this post) TODO: UHHH WHEN IS THIS RELEASING, AGAIN?
 - Battery Boy stands as a solid and varied take on an endless runner. Which is increasingly more difficult to do, given the saturation of the genre.
 - I wish we'd gone further with the "currencies as materials" concept. The current system strikes me as an awkward halfway point that comes with more confusion than either extreme.
 - Difficulty increasing with lower battery is too subtle. I worry many players don't notice it. Doesn't mean the game needs to be harder, just that the visual effect should be more pronounced.
