@@ -11,7 +11,7 @@ thumbnail: assets/images/me.jpg
     <h4>Released Video Games</h4>
   </span>
   <div class="row" style="text-align: center;">
-    {% assign games = (site.games | sort: 'grid-rank' | reverse) %}
+    {% assign games = site.games | sort: 'grid-rank' | reverse %}
       {% for game in games %}
         {% if game.grid-rank == -1 %}
           {% continue %}
@@ -36,7 +36,7 @@ thumbnail: assets/images/me.jpg
       <h4>Museums, Zoos, Apps</h4>
   </span>
   <div class="row" style="text-align: center;">
-    {% assign ints = (site.interactives | sort: 'grid-rank' | reverse) %}
+    {% assign ints = site.interactives | sort: 'grid-rank' | reverse %}
     {% for int in ints %}
     <div class="col-md-4" style="padding-bottom: 30px;">
       <a href="{{int.url}}" class="no-fancy">
@@ -57,7 +57,7 @@ thumbnail: assets/images/me.jpg
       <h4>Game Jams, Personal Projects, Unreleased Games</h4>
   </span>
   <div class="row" style="text-align: center;">
-    {% assign exps = (site.experimental | sort: 'grid-rank' | reverse) %}
+    {% assign exps = site.experimental | sort: 'grid-rank' | reverse %}
     {% for exp in exps %}
     <div class="col-md-4" style="padding-bottom: 30px;">
       <a href="{{exp.url}}" class="no-fancy">
