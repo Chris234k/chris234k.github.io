@@ -7,7 +7,7 @@ thumbnail: /assets/images/gf.png
 trailer: https://www.youtube.com/embed/J43CxGWoTCg
 google-play: https://play.google.com/store/apps/details?id=com.thumbspire.gelato&hl=en
 ios: https://itunes.apple.com/us/app/gelato-flicker/id1040605877?mt=8
-grid-rank: 1
+grid-rank: 3
 ---
 
 ## [Petricore](http://petricoregames.com/)'s Second Game

@@ -7,7 +7,7 @@ thumbnail: assets/images/hh.png
 trailer: https://www.youtube.com/embed/HMUWzCgeuOQ
 google-play: https://play.google.com/store/apps/details?id=com.massdigi.hibachihero&hl=en
 ios: https://itunes.apple.com/us/app/hibachi-hero/id1049889564?mt=8
-grid-rank: 3
+grid-rank: 1
 ---
 
 ## [MassDiGI](https://www.massdigi.org) SIP 2015
