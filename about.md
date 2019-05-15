@@ -18,7 +18,7 @@ I'm a game developer who works full time at [Petricore](http://www.petricoregame
 * Fluent: C#
 * Some experience: C++, HTML, Objective-C, Java
 * Unity 4, 5, 2017
-* Git, Perforce
+* Git, Perforce, SVN
 * XCode, Android Studio
 
 ### Petricore
