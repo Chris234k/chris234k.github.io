@@ -7,10 +7,10 @@ thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1odTGA-k9_5ld
 trailer: https://www.youtube.com/embed/ZfRh4nv_iFo
 google-play: https://play.google.com/store/apps/details?id=com.neuromotion.mightier&hl=en_US
 ios: https://itunes.apple.com/us/app/mightier/id1333675573?ls=1&mt=8
-grid-rank: 4
+grid-rank: 5
 ---
 
-## Remote Contract Work for [Mightier](https://mightier.com/)
+## [Mightier](https://mightier.com/) -- Remote Contract Work
 
 Things were getting quite busy over at Neuromotion Labs and they needed some additional help bringing games onto their platform. Through [Petricore](https://petricoregames.com/), I worked for about 10 months on porting games to Mightier. Specifically, the games I worked on were:
 

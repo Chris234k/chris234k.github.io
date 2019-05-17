@@ -6,7 +6,7 @@ collection: games
 thumbnail: https://playcrafting.com/wp-content/uploads/2019/03/Icon-Dead-Drop-Desperado.jpg
 trailer: https://youtube.com/embed/5xj7Q1vPg14
 ios: https://itunes.apple.com/us/app/dead-drop-desperado/id1454393037?mt=8
-grid-rank: 7
+grid-rank: 8
 ---
 
 ## Part of Playcrafting's [Bose ARcade](https://playcrafting.com/bosear/)

@@ -5,7 +5,7 @@ pitch: An endless runner that changes based on the battery life of your device
 collection: games
 thumbnail: assets/images/batteryboy/thumbnail.png
 trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
-grid-rank: 6
+grid-rank: 7
 published: true
 ---
 
