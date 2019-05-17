@@ -5,7 +5,6 @@ pitch: Learn the stories of three seals, identify and treat their illnesses
 collection: interactives
 thumbnail: assets/images/interactives/va.jpg
 demo-gif: /assets/images/interactives/chooseapatient.gif
-published: true
 --- 
 ## [Georgia Aquarium](https://www.georgiaaquarium.org/)
 

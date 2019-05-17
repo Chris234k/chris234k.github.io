@@ -5,7 +5,6 @@ pitch: Pledge to improve yourself and the environment
 collection: interactives
 thumbnail: assets/images/interactives/dz.jpg
 demo-gif: /assets/images/interactives/dz-demo.gif
-published: true
 --- 
 ## [Detroit Zoo](https://detroitzoo.org/)
 

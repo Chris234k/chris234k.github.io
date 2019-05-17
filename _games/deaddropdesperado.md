@@ -1,7 +1,7 @@
 ---
 layout: game
 title: Dead Drop Desperado
-pitch: A “Matrix”-style bullet dodging duel built for Bose AR devices
+pitch: A “Matrix”-style bullet dodging duel built for Bose AR
 collection: games
 thumbnail: https://playcrafting.com/wp-content/uploads/2019/03/Icon-Dead-Drop-Desperado.jpg
 trailer: https://youtube.com/embed/5xj7Q1vPg14
