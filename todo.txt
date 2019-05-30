@@ -19,17 +19,21 @@ Medical triage simulation for training.
 - Lotto' Boxes
 Income Inequality spotlight the issue.
 
-
 ### Interactives ###
 
-- Georgia Aquarium [Vet Adventure]
 - ABMC [Historic Registry, Gold Star Mothers]
 - AMST [Six Degrees, Collage]
 - I Vote I Count
 - Pack It Up, Pioneer!
-- Fasdraft
-- UIAA (coming soon)
+- Memory Mill
+- Owens Thomas House
+- International Spy Museum
 
+
+### Apps ###
+- Fasdraft
+- Runbuddy
+- Weirfarm
 
 ### Jams, Experimental, Misc ###
 
