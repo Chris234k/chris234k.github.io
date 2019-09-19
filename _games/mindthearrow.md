@@ -10,7 +10,7 @@ ios: https://itunes.apple.com/us/app/mind-the-arrow-match-the-dots/id1003871458?
 grid-rank: 2
 ---
 
-## [Petricore](http://petricoregames.com/)'s First Game
+## [Petricore's](http://petricoregames.com/) First Game
 
 In collaboration with New York based publisher, [Thumbspire](https://www.thumbspire.com/), Mind the Arrow is available on Android & iOS with 200K+ downloads! Featured on both Google Play and the App Store in numerous countries.
 

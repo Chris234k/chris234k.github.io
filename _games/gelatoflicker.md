@@ -10,7 +10,7 @@ ios: https://itunes.apple.com/us/app/gelato-flicker/id1040605877?mt=8
 grid-rank: 3
 ---
 
-## [Petricore](http://petricoregames.com/)'s Second Game
+## [Petricore's](http://petricoregames.com/) Second Game
 
 Following the success of [Mind the Arrow](/games/mindthearrow), Petricore and [Thumbspire](https://www.thumbspire.com/), team up to release another game. Gelato Flicker is available on Android & iOS with 250K+ downloads! Featured on the App Store in numerous countries.
 

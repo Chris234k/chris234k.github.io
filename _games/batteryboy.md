@@ -8,7 +8,7 @@ trailer: https://www.youtube.com/embed/qqFoSA4W-Ag
 grid-rank: 7
 ---
 
-## [Petricore](http://petricoregames.com/)'s Third Game
+## [Petricore's](http://petricoregames.com/) Third Game
 Battery boy is an endless runner that changes with the battery life of your device. Drag your finger to move your character horizontally. The speed at which the character moves will increase as your score gets higher. Avoid obstacles, use powerups, gather coins. Customize your character and get the highest score possible.
 
 While releasing your finger to stop is an additional degree of freedom we have over many endless runners, the other gameplay mechanics are quite similar. However, no development process is ever the same. Let me take you on a small journey through Battery Boy's development!
