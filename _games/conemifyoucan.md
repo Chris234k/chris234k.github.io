@@ -3,7 +3,7 @@ layout: game
 title: Con 'Em If You Can
 pitch: Learn how to spot and avoid investment fraud
 collection: games
-thumbnail: https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/da/f1/9b/daf19b7a-1506-d502-c84c-962a825e06f1/source/512x512bb.jpg
+thumbnail: assets/images/conemifyoucan.jpg
 trailer: https://www.youtube.com/embed/n_Edf1j2LBE
 google-play: https://play.google.com/store/apps/details?id=com.commonwealth.fraudville
 ios: https://itunes.apple.com/us/app/con-em-if-you-can/id923372242

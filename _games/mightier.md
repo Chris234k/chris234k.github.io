@@ -3,7 +3,7 @@ layout: game
 title: Mightier
 pitch: Emotional regulation through play
 collection: games
-thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1odTGA-k9_5ld3JqgfuKeO7ytxXbwyoMvmjL_In8iCfgNxQYWQ
+thumbnail: assets/images/mightier.png
 trailer: https://www.youtube.com/embed/ZfRh4nv_iFo
 google-play: https://play.google.com/store/apps/details?id=com.neuromotion.mightier&hl=en_US
 ios: https://itunes.apple.com/us/app/mightier/id1333675573?ls=1&mt=8

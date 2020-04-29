@@ -3,7 +3,7 @@ layout: game
 title: Dogfight
 pitch: An airplane combat game where the pilots are dogs
 collection: games
-thumbnail: https://petricoregames.com/wp-content/themes/petricore/DogFightSite/img/DogFightWebsiteHeader.jpg
+thumbnail: assets/images/dogfight.jpg
 trailer: https://www.youtube.com/embed/8guijuh7gEM
 grid-rank: 9
 ---

@@ -3,7 +3,7 @@ layout: game
 title: Becker Derby
 pitch: Endless homerun derby mobile app featuring Becker College's Hank the Hawk
 collection: games
-thumbnail: https://maximumarchive.cdn.prismic.io/maximumarchive/f4cd038588aa14d14a7df534265c79c9acb71fc8_1024-2.png
+thumbnail: assets/images/beckerderby.png
 demo-gif: https://maximumarchive.cdn.prismic.io/maximumarchive/07bccb256d1421c1b5411673d7d2afc580f04bcc_becker-derby-showcase-youtube-thumbnail.jpg
 google-play: https://play.google.com/store/apps/details?id=com.maximumcrash.beckerderby&hl=en_US
 ios: https://itunes.apple.com/us/app/becker-derby/id1284734822?mt=8
