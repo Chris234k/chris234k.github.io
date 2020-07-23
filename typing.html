@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body onload="onLoad()">
+
+<br>
+Woah. What are you doing here? You're not supposed to be here...
+<br>
+<br>
+<br>
+
+<div style="width:auto;">
+	<p id="score">score: 0</p>
+	<p id="target"></p>
+	<input id="inputField" placeholder="Enter the text here" style="border: none; width: 100%" oninput="inputChange()">
+</div>
+
+<script>
+	score = 0;
+	// document.addEventListener("keydown", typing, false); TODO(Chris) another potential way to check for inputs
+	
+	function onLoad() {
+		document.getElementById("target").innerText = "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.";
+	}
+	
+	function inputChange() {
+		typed = document.getElementById("inputField").value;
+		index = typed.length - 1; // TODO(Chris) again, might just be able to get input directly...
+		target = document.getElementById("target").innerText;
+
+		if(target.charAt(index) == typed.charAt(index)) {
+			score++;
+		} else {
+			score--;
+		}
+		
+		document.getElementById("score").innerText = "score: " + score;
+	}
+</script>
+
+</body>
+</html>
