@@ -51,13 +51,17 @@ Woah. What are you doing here? You're not supposed to be here...
 	
 	function inputChange() {
 		typed = document.getElementById("inputField").value;
-		index = typed.length - 1; // TODO(Chris) again, might just be able to get input directly...
 		target = document.getElementById("target").innerText;
-
-		if(target.charAt(index) == typed.charAt(index)) {
-			score++;
-		} else {
-			score--;
+		
+		score = 0;
+		for(i = 0; i < typed.length; i++) {
+			if(i < target.length) {
+				if(typed.charAt(i) == target.charAt(i)) {
+					score++;
+				} else {
+					score--;
+				}
+			}
 		}
 		
 		setScoreText(score);
