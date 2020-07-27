@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+	<head> 
+		<link rel="stylesheet" href="assets/css/typing-styles.css">
+	</head>
 <body onload="onLoad()">
 
 <br>
@@ -9,17 +12,35 @@ Woah. What are you doing here? You're not supposed to be here...
 <br>
 
 <div style="width:auto;">
+	<button onclick="reset()">Reset</button>
+	
 	<p id="score">score: 0</p>
-	<p id="target"></p>
-	<input id="inputField" placeholder="Enter the text here" style="border: none; width: 100%" oninput="inputChange()">
+	<p class="typing-font" id="target" style="padding-left: 1px;"></p>
+	<input class="typing-font" id="inputField" placeholder="Begin typing..." style="border: none; width: 100%;" oninput="inputChange()">
 </div>
 
 <script>
 	score = 0;
-	// document.addEventListener("keydown", typing, false); TODO(Chris) another potential way to check for inputs
+	document.addEventListener("keydown", onKeyDown, false);
+	
+	function onKeyDown(key) {
+		if(key.key == "Escape") {
+			reset();
+		}
+	}
 	
 	function onLoad() {
-		document.getElementById("target").innerText = "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.";
+		document.getElementById("target").innerText = "The quick brown fox jumps over the lazy dog.";
+	}
+	
+	function reset() {
+		score = 0;
+		document.getElementById("inputField").value = "";
+		setScoreText(score);
+	}
+	
+	function setScoreText(targetScore) {
+		document.getElementById("score").innerText = "score: " + targetScore;
 	}
 	
 	function inputChange() {
@@ -33,7 +54,7 @@ Woah. What are you doing here? You're not supposed to be here...
 			score--;
 		}
 		
-		document.getElementById("score").innerText = "score: " + score;
+		setScoreText(score);
 	}
 </script>
 
