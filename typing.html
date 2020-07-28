@@ -20,13 +20,16 @@ Woah. What are you doing here? You're not supposed to be here...
 <div style="position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%);">
 	<button onclick="reset()">Reset</button>
 	
-	<p id="score">score: 0</p>
+	<p id="score">score: 0/0</p>
+	<p id="time">elapsed: 0</p>
+	<p id="wpm">wpm: 0</p>
 	<p class="typing-font" id="target" style="padding-left: 1px;"></p>
 	<input class="typing-font" id="inputField" placeholder="Begin typing..." style="border: none; width: 100%;" oninput="inputChange()">
 </div>
 
 <script>
 	score = 0;
+	startTime = Date.now();
 	document.addEventListener("keydown", onKeyDown, false);
 	
 	function onKeyDown(key) {
@@ -41,12 +44,10 @@ Woah. What are you doing here? You're not supposed to be here...
 	
 	function reset() {
 		score = 0;
+		startTime = Date.now();
 		document.getElementById("inputField").value = "";
-		setScoreText(score);
-	}
-	
-	function setScoreText(targetScore) {
-		document.getElementById("score").innerText = "score: " + targetScore;
+		setScoreText(score, 0);
+		document.getElementById("time").innerText = "elapsed: " + 0;
 	}
 	
 	function inputChange() {
@@ -64,7 +65,18 @@ Woah. What are you doing here? You're not supposed to be here...
 			}
 		}
 		
-		setScoreText(score);
+		setScoreText(score, target.length);
+		
+		elapsed = (Date.now() - startTime) / 1000;
+		document.getElementById("time").innerText = "elapsed: " + elapsed;
+		
+		// https://www.speedtypingonline.com/typing-equations
+		wpm = Math.floor((typed.length / 5) / (elapsed / 60));
+		document.getElementById("wpm").innerText = "wpm: " + wpm;
+	}
+	
+	function setScoreText(currentScore, targetLength) {
+		document.getElementById("score").innerText = "score: " + currentScore + "/" + targetLength;
 	}
 </script>
 
