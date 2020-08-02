@@ -18,11 +18,19 @@ body {
 }
 
 .typing {
-	font-size: 15px;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
-input, select {
+.typing #target {
+	padding-left: 3px;
+	margin: 0px;
+}
+
+.typing input, select {
 	width: 100%;
-	padding: 12px 10px;
 	box-sizing: border-box;
+	
+	font-size: 20px;
+	font-family: "Inconsolata";
 }
