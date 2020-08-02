@@ -3,3 +3,9 @@
 	font-family: Times;
 	font-style: normal;
 }
+
+body {
+	background-color: #222222;
+	color:#FFF2DC;
+	font-family: "Inconsolata", "Arial";
+}
