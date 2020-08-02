@@ -15,9 +15,9 @@ permalink: /typing/
 Woah. What are you doing here? You're not supposed to be here...
 
 <div class="main-box">
-	<p id="score">score: 0/0</p>
-	<p id="time">elapsed: 0</p>
-	<p id="wpm">wpm: 0</p>
+	<p id="score"></p>
+	<p id="time">/p>
+	<p id="wpm"></p>
 	<button onclick="reset()">Reset</button>
 	<br>
 	<br>
@@ -46,6 +46,8 @@ Woah. What are you doing here? You're not supposed to be here...
 	function onLoad() {
 		document.getElementById("target").innerText = "The quick brown fox jumps over the lazy dog.";
 		document.getElementById("inputField").focus();
+		
+		reset();
 	}
 	
 	function reset() {
@@ -53,8 +55,9 @@ Woah. What are you doing here? You're not supposed to be here...
 		score = 0;
 		startTime = Date.now();
 		document.getElementById("inputField").value = "";
-		setScoreText(score, 0);
+		setScoreText(score, 0, 0);
 		document.getElementById("time").innerText = "elapsed: " + 0;
+		document.getElementById("wpm").innerText = "wpm: " + 0;
 	}
 	
 	function inputChange() {
@@ -70,7 +73,7 @@ Woah. What are you doing here? You're not supposed to be here...
 			}
 		}
 		
-		setScoreText(score, target.length);
+		setScoreText(score, typed.length, target.length);
 		
 		elapsed = (Date.now() - startTime) / 1000;
 		document.getElementById("time").innerText = "elapsed: " + elapsed;
@@ -80,8 +83,14 @@ Woah. What are you doing here? You're not supposed to be here...
 		document.getElementById("wpm").innerText = "wpm: " + wpm;
 	}
 	
-	function setScoreText(currentScore, targetLength) {
-		document.getElementById("score").innerText = "score: " + currentScore + "/" + targetLength;
+	function setScoreText(currentScore, numTyped, targetLength) {
+		accuracy = 0;
+		if(numTyped > 0) {
+			accuracy = (currentScore / numTyped) * 100;
+			accuracy = accuracy.toFixed(0);
+		}
+		
+		document.getElementById("score").innerText = "score: " + currentScore + "/" + targetLength + " (" + accuracy + "%)";
 	}
 </script>
 
