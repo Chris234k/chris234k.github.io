@@ -13,16 +13,15 @@ permalink: /typing/
 
 <br>
 Woah. What are you doing here? You're not supposed to be here...
-<br>
-<br>
-<br>
 
-<div style="position: absolute; top: 50%; left:50%; transform: translate(-50%, -50%);">
-	<button onclick="reset()">Reset</button>
-	
+<div class="main-box">
 	<p id="score">score: 0/0</p>
 	<p id="time">elapsed: 0</p>
 	<p id="wpm">wpm: 0</p>
+	<button onclick="reset()">Reset</button>
+	<br>
+	<br>
+	
 	<p class="typing-font" id="target" style="padding-left: 1px;"></p>
 	<input class="typing-font" id="inputField" placeholder="Begin typing..." style="border: none; width: 100%;" oninput="inputChange()">
 </div>
