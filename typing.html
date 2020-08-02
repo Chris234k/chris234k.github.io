@@ -8,6 +8,7 @@ permalink: /typing/
 <html>
 	<head> 
 		<link rel="stylesheet" href="/assets/css/typing-styles.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
 	</head>
 <body onload="onLoad()">
 
@@ -22,8 +23,10 @@ Woah. What are you doing here? You're not supposed to be here...
 	<br>
 	<br>
 	
-	<p class="typing-font" id="target" style="padding-left: 1px;"></p>
-	<input class="typing-font" id="inputField" placeholder="Begin typing..." style="border: none; width: 100%;" oninput="inputChange()">
+	<div class="typing">
+		<p id="target" style="padding-left: 1px;"></p>
+		<input id="inputField" placeholder="Begin typing..." style="border: none; width: 100%;" oninput="inputChange()">
+	</div>
 </div>
 
 <script>

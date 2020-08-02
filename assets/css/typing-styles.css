@@ -1,9 +1,3 @@
-.typing-font {
-	font-size: 15px;
-	font-family: Times;
-	font-style: normal;
-}
-
 body {
 	background-color: #222222;
 	color:#FFF2DC;
@@ -15,9 +9,20 @@ body {
 	top: 50%; 
 	left:50%; 
 	transform: translate(-50%, -50%);
+	min-width: 50%;
 	
 	padding: 20px;
 	border: 2px solid black;
 	outline: 2px solid black;
 	box-shadow: 5px 5px 5px black;
+}
+
+.typing {
+	font-size: 15px;
+}
+
+input, select {
+	width: 100%;
+	padding: 12px 10px;
+	box-sizing: border-box;
 }
