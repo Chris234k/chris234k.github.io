@@ -29,10 +29,16 @@ Woah. What are you doing here? You're not supposed to be here...
 
 <script>
 	score = 0;
+	isTiming = false;
 	startTime = Date.now();
 	document.addEventListener("keydown", onKeyDown, false);
 	
 	function onKeyDown(key) {
+		if(!isTiming) {
+			isTiming = true;
+			startTime = Date.now();
+		}
+		
 		if(key.key == "Escape") {
 			reset();
 		}
@@ -43,6 +49,7 @@ Woah. What are you doing here? You're not supposed to be here...
 	}
 	
 	function reset() {
+		isTiming = false;
 		score = 0;
 		startTime = Date.now();
 		document.getElementById("inputField").value = "";
