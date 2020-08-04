@@ -16,9 +16,20 @@ permalink: /typing/
 Woah. What are you doing here? You're not supposed to be here...
 
 <div class="main-box">
-	<p id="score"></p>
-	<p id="time">/p>
-	<p id="wpm"></p>
+	<div style="float: left; width: 50%">
+		<p>[current]</p>
+		<p id="score"></p>
+		<p id="time"></p>
+		<p id="wpm"></p>
+	</div>
+	
+	<div style="float: left; width: 50%; text-align: right;">
+		<p>[total]</p>
+		<p id="totalScore">0</p>
+		<p id="totalTime">0</p>
+		<p id="totalwpm">0</p>
+	</div>
+	
 	<button onclick="reset()">Reset</button>
 	<br>
 	<br>
@@ -31,18 +42,27 @@ Woah. What are you doing here? You're not supposed to be here...
 
 <script>
 	score = 0;
+	
+	totalScore = 0;
+	totalTyped = 0;
+	totalLength = 0;
+	totalWPM = 0;
+	
 	isTiming = false;
-	startTime = Date.now();
+	roundTime = Date.now();
+	totalTime = Date.now();
 	document.addEventListener("keydown", onKeyDown, false);
 	
 	function onKeyDown(key) {
 		if(!isTiming) {
 			isTiming = true;
-			startTime = Date.now();
+			roundTime = Date.now();
 		}
 		
 		if(key.key == "Escape") {
 			reset();
+		} else if (key.key == "Enter") {
+			submit();
 		}
 	}
 	
@@ -56,11 +76,31 @@ Woah. What are you doing here? You're not supposed to be here...
 	function reset() {
 		isTiming = false;
 		score = 0;
-		startTime = Date.now();
 		document.getElementById("inputField").value = "";
 		setScoreText(score, 0, 0);
 		document.getElementById("time").innerText = "elapsed: " + 0;
 		document.getElementById("wpm").innerText = "wpm: " + 0;
+	}
+	
+	function submit() {
+		totalScore += score;
+		totalTyped += document.getElementById("inputField").value.length;
+		totalLength += document.getElementById("target").innerText.length;
+		
+		elapsed = (Date.now() - totalTime) / 1000;
+		totalWPM = Math.floor((totalTyped / 5) / (elapsed / 60));
+		
+		accuracy = 0;
+		if(totalTyped > 0) {
+			accuracy = (totalScore / totalTyped) * 100;
+			accuracy = accuracy.toFixed(0);
+		}
+		
+		document.getElementById("totalScore").innerText = "score: " + totalScore + "/" + totalLength + " (" + accuracy + "%)";
+		document.getElementById("totalTime").innerText = "elapsed: " + elapsed;
+		document.getElementById("totalwpm").innerText = "wpm: " + totalWPM;
+		
+		reset();
 	}
 	
 	function inputChange() {
@@ -78,7 +118,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		
 		setScoreText(score, typed.length, target.length);
 		
-		elapsed = (Date.now() - startTime) / 1000;
+		elapsed = (Date.now() - roundTime) / 1000;
 		document.getElementById("time").innerText = "elapsed: " + elapsed;
 		
 		// https://www.speedtypingonline.com/typing-equations
