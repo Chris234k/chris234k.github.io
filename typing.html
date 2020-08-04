@@ -53,6 +53,22 @@ Woah. What are you doing here? You're not supposed to be here...
 	totalTime = Date.now();
 	document.addEventListener("keydown", onKeyDown, false);
 	
+	// https://www.gamesradar.com/best-video-game-quotes-all-time/
+	quotes = [
+		"We all make choices in life, but in the end our choices make us.",
+		"Get over here!",
+		"What is better? To be born good or to overcome your evil nature through great effort?",
+		"The right man in the wrong place can make all the difference in the world.",
+		"Stand in the ashes of a trillion dead souls, and asks the ghosts if honor matters. The silence is your answer.",
+		"Bring me a bucket, and I'll show you a bucket!",
+		"Wanting something does not give you the right to have it.",
+		"It’s a funny thing, ambition. It can take one to sublime heights or harrowing depths. And sometimes they are one and the same.",
+		"A hero need not speak. When he is gone, the world will speak for him.",
+		"No gods or kings. Only man.",
+		"Life is cruel. Of this I have no doubt. One can only hope that one leaves behind a lasting legacy. But so often, the legacies we leave behind...are not the ones we intended."
+	]	
+	
+	
 	function onKeyDown(key) {
 		if(!isTiming) {
 			isTiming = true;
@@ -67,7 +83,6 @@ Woah. What are you doing here? You're not supposed to be here...
 	}
 	
 	function onLoad() {
-		document.getElementById("target").innerText = "The quick brown fox jumps over the lazy dog.";
 		document.getElementById("inputField").focus();
 		
 		reset();
@@ -80,6 +95,9 @@ Woah. What are you doing here? You're not supposed to be here...
 		setScoreText(score, 0, 0);
 		document.getElementById("time").innerText = "elapsed: " + 0;
 		document.getElementById("wpm").innerText = "wpm: " + 0;
+		
+		random = Math.floor(Math.random() * quotes.length);
+		document.getElementById("target").innerText = quotes[random];
 	}
 	
 	function submit() {
