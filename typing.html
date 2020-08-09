@@ -65,7 +65,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		"It’s a funny thing, ambition. It can take one to sublime heights or harrowing depths. And sometimes they are one and the same.",
 		"A hero need not speak. When he is gone, the world will speak for him.",
 		"No gods or kings. Only man.",
-		"Life is cruel. Of this I have no doubt. One can only hope that one leaves behind a lasting legacy. But so often, the legacies we leave behind...are not the ones we intended."
+		"Life is cruel. Of this I have no doubt. One can only hope that one leaves behind a lasting legacy. But so often, the legacies we leave behind... are not the ones we intended."
 	]	
 	
 	
@@ -133,7 +133,6 @@ Woah. What are you doing here? You're not supposed to be here...
 				}
 			}
 		}
-		
 		setScoreText(score, typed.length, target.length);
 		
 		elapsed = (Date.now() - roundTime) / 1000;
@@ -142,6 +141,34 @@ Woah. What are you doing here? You're not supposed to be here...
 		// https://www.speedtypingonline.com/typing-equations
 		wpm = Math.floor((typed.length / 5) / (elapsed / 60));
 		document.getElementById("wpm").innerText = "wpm: " + wpm;
+		
+		renderErrors();
+	}
+	
+	function renderErrors() {
+		typed = document.getElementById("inputField").value;
+		target = document.getElementById("target").innerText;
+		
+		result = "";
+		
+		for(i = 0; i < target.length; i++) {
+			char = target.charAt(i);
+			if(i < typed.length) {
+				if(char == typed.charAt(i)) {
+					result += char;
+				} else {
+					result += incorrectLetter(char);
+				}
+			} else {
+				result += char;
+			}
+		}
+		
+		document.getElementById("target").innerHTML = result;
+	}
+	
+	function incorrectLetter(letter) {
+		return "<span class=\"incorrect\">"+letter+"<\/span>";
 	}
 	
 	function setScoreText(currentScore, numTyped, targetLength) {

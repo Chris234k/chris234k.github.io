@@ -34,3 +34,7 @@ body {
 	font-size: 20px;
 	font-family: "Inconsolata";
 }
+
+.incorrect {
+	color: red;
+}
