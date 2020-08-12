@@ -109,8 +109,8 @@ Woah. What are you doing here? You're not supposed to be here...
 		totalTyped += document.getElementById("inputField").value.length;
 		totalLength += document.getElementById("target").innerText.length;
 		
-		totalElapsed += (Date.now() - roundTime) / 1000; // elapsed time is represented as the sum of all segments
-		totalWPM = Math.floor((totalTyped / 5) / (elapsed / 60));
+		totalElapsed += ((Date.now() - roundTime) / 1000); // elapsed time is represented as the sum of all segments
+		totalWPM = Math.floor((totalTyped / 5) / (totalElapsed / 60));
 		
 		document.getElementById("totalScore").innerText = buildScoreString(totalScore, totalTyped, totalLength);
 		document.getElementById("totalElapsed").innerText = "elapsed: " + totalElapsed;
@@ -133,7 +133,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		}
 		document.getElementById("score").innerText = buildScoreString(score, typed.length, target.length);
 		
-		elapsed = (Date.now() - roundTime) / 1000;
+		elapsed = ((Date.now() - roundTime) / 1000);
 		document.getElementById("time").innerText = "elapsed: " + elapsed;
 		
 		// https://www.speedtypingonline.com/typing-equations
