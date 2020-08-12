@@ -30,7 +30,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		<p id="totalwpm">0</p>
 	</div>
 	
-	<button onclick="reset()">Reset</button>
+	<button onclick="reset(true)">Reset</button>
 	<br>
 	<br>
 	
@@ -80,7 +80,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		}
 		
 		if(key.key == "Escape") {
-			reset();
+			reset(true);
 		} else if (key.key == "Enter") {
 			submit();
 		}
@@ -89,10 +89,10 @@ Woah. What are you doing here? You're not supposed to be here...
 	function onLoad() {
 		document.getElementById("inputField").focus();
 		
-		reset();
+		reset(true);
 	}
 	
-	function reset() {
+	function reset(pickNewQuote) {
 		isTiming = false;
 		score = 0;
 		document.getElementById("inputField").value = "";
@@ -100,8 +100,10 @@ Woah. What are you doing here? You're not supposed to be here...
 		document.getElementById("time").innerText = "elapsed: " + 0;
 		document.getElementById("wpm").innerText = "wpm: " + 0;
 		
-		random = Math.floor(Math.random() * quotes.length);
-		document.getElementById("target").innerText = quotes[random];
+		if(pickNewQuote) {
+			random = Math.floor(Math.random() * quotes.length);
+			document.getElementById("target").innerText = quotes[random];
+		}
 		
 		renderTypingText();
 	}
@@ -118,12 +120,17 @@ Woah. What are you doing here? You're not supposed to be here...
 		document.getElementById("totalElapsed").innerText = "elapsed: " + totalElapsed;
 		document.getElementById("totalwpm").innerText = "wpm: " + totalWPM;
 		
-		reset();
+		reset(true);
 	}
 	
 	function inputChange() {
 		typed = document.getElementById("inputField").value;
 		target = document.getElementById("target").innerText;
+		
+		if(typed.length == 0) { // reset if the num typed goes back to zero (ex: user clears typed after early mistake)
+			reset(false);
+			return;
+		}
 		
 		score = 0;
 		for(i = 0; i < typed.length; i++) {
