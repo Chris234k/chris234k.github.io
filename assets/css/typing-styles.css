@@ -35,6 +35,15 @@ body {
 	font-family: "Inconsolata";
 }
 
+/* Letter styles */
+.untyped {
+	color: #71736C;
+}
+
+.correct {
+	color: #FFF2DC;
+}
+
 .incorrect {
 	color: red;
 }

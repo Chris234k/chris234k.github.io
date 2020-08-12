@@ -102,6 +102,8 @@ Woah. What are you doing here? You're not supposed to be here...
 		
 		random = Math.floor(Math.random() * quotes.length);
 		document.getElementById("target").innerText = quotes[random];
+		
+		renderTypingText();
 	}
 	
 	function submit() {
@@ -140,10 +142,10 @@ Woah. What are you doing here? You're not supposed to be here...
 		wpm = Math.floor((typed.length / 5) / (elapsed / 60));
 		document.getElementById("wpm").innerText = "wpm: " + wpm;
 		
-		renderErrors();
+		renderTypingText();
 	}
 	
-	function renderErrors() {
+	function renderTypingText() {
 		typed = document.getElementById("inputField").value;
 		target = document.getElementById("target").innerText;
 		
@@ -153,16 +155,24 @@ Woah. What are you doing here? You're not supposed to be here...
 			char = target.charAt(i);
 			if(i < typed.length) {
 				if(char == typed.charAt(i)) {
-					result += char;
+					result += correctLetter(char);
 				} else {
 					result += incorrectLetter(char);
 				}
 			} else {
-				result += char;
+				result += untypedLetter(char);
 			}
 		}
 		
 		document.getElementById("target").innerHTML = result;
+	}
+	
+	function untypedLetter(letter) {
+		return "<span class=\"untyped\">"+letter+"<\/span>";
+	}
+	
+	function correctLetter(letter) {
+		return "<span class=\"correct\">"+letter+"<\/span>";
 	}
 	
 	function incorrectLetter(letter) {
