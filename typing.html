@@ -96,7 +96,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		isTiming = false;
 		score = 0;
 		document.getElementById("inputField").value = "";
-		setScoreText(score, 0, 0);
+		document.getElementById("score").innerText = buildScoreString(score, 0, 0);
 		document.getElementById("time").innerText = "elapsed: " + 0;
 		document.getElementById("wpm").innerText = "wpm: " + 0;
 		
@@ -112,13 +112,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		totalElapsed += (Date.now() - roundTime) / 1000; // elapsed time is represented as the sum of all segments
 		totalWPM = Math.floor((totalTyped / 5) / (elapsed / 60));
 		
-		accuracy = 0;
-		if(totalTyped > 0) {
-			accuracy = (totalScore / totalTyped) * 100;
-			accuracy = accuracy.toFixed(0);
-		}
-		
-		document.getElementById("totalScore").innerText = "score: " + totalScore + "/" + totalLength + " (" + accuracy + "%)";
+		document.getElementById("totalScore").innerText = buildScoreString(totalScore, totalTyped, totalLength);
 		document.getElementById("totalElapsed").innerText = "elapsed: " + totalElapsed;
 		document.getElementById("totalwpm").innerText = "wpm: " + totalWPM;
 		
@@ -137,7 +131,7 @@ Woah. What are you doing here? You're not supposed to be here...
 				}
 			}
 		}
-		setScoreText(score, typed.length, target.length);
+		document.getElementById("score").innerText = buildScoreString(score, typed.length, target.length);
 		
 		elapsed = (Date.now() - roundTime) / 1000;
 		document.getElementById("time").innerText = "elapsed: " + elapsed;
@@ -175,14 +169,14 @@ Woah. What are you doing here? You're not supposed to be here...
 		return "<span class=\"incorrect\">"+letter+"<\/span>";
 	}
 	
-	function setScoreText(currentScore, numTyped, targetLength) {
+	function buildScoreString(currentScore, numTyped, targetLength) {
 		accuracy = 0;
 		if(numTyped > 0) {
 			accuracy = (currentScore / numTyped) * 100;
 			accuracy = accuracy.toFixed(0);
 		}
 		
-		document.getElementById("score").innerText = "score: " + currentScore + "/" + targetLength + " (" + accuracy + "%)";
+		return "score: " + currentScore + "/" + targetLength + " (" + accuracy + "%)";
 	}
 </script>
 
