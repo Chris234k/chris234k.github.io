@@ -96,7 +96,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		isTiming = false;
 		score = 0;
 		document.getElementById("inputField").value = "";
-		document.getElementById("score").innerText = buildScoreString(score, 0, 0);
+		document.getElementById("score").innerText = buildScoreString(score, 0);
 		document.getElementById("time").innerText = "elapsed: " + 0;
 		document.getElementById("wpm").innerText = "wpm: " + 0;
 		
@@ -112,7 +112,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		totalElapsed += ((Date.now() - roundTime) / 1000); // elapsed time is represented as the sum of all segments
 		totalWPM = Math.floor((totalTyped / 5) / (totalElapsed / 60));
 		
-		document.getElementById("totalScore").innerText = buildScoreString(totalScore, totalTyped, totalLength);
+		document.getElementById("totalScore").innerText = buildScoreString(totalScore, totalLength);
 		document.getElementById("totalElapsed").innerText = "elapsed: " + totalElapsed;
 		document.getElementById("totalwpm").innerText = "wpm: " + totalWPM;
 		
@@ -131,7 +131,7 @@ Woah. What are you doing here? You're not supposed to be here...
 				}
 			}
 		}
-		document.getElementById("score").innerText = buildScoreString(score, typed.length, target.length);
+		document.getElementById("score").innerText = buildScoreString(score, target.length);
 		
 		elapsed = ((Date.now() - roundTime) / 1000);
 		document.getElementById("time").innerText = "elapsed: " + elapsed;
@@ -169,10 +169,10 @@ Woah. What are you doing here? You're not supposed to be here...
 		return "<span class=\"incorrect\">"+letter+"<\/span>";
 	}
 	
-	function buildScoreString(currentScore, numTyped, targetLength) {
+	function buildScoreString(currentScore, targetLength) {
 		accuracy = 0;
-		if(numTyped > 0) {
-			accuracy = (currentScore / numTyped) * 100;
+		if(targetLength > 0) {
+			accuracy = (currentScore / targetLength) * 100;
 			accuracy = accuracy.toFixed(0);
 		}
 		
