@@ -26,7 +26,7 @@ Woah. What are you doing here? You're not supposed to be here...
 	<div style="float: left; width: 50%; text-align: right;">
 		<p>[total]</p>
 		<p id="totalScore">0</p>
-		<p id="totalTime">0</p>
+		<p id="totalElapsed">0</p>
 		<p id="totalwpm">0</p>
 	</div>
 	
@@ -41,16 +41,20 @@ Woah. What are you doing here? You're not supposed to be here...
 </div>
 
 <script>
-	score = 0;
 	
+	isTiming = false;
+	
+	// round data
+	score = 0;
+	roundTime = Date.now();
+	
+	// totals
 	totalScore = 0;
 	totalTyped = 0;
 	totalLength = 0;
 	totalWPM = 0;
+	totalElapsed = 0;
 	
-	isTiming = false;
-	roundTime = Date.now();
-	totalTime = Date.now();
 	document.addEventListener("keydown", onKeyDown, false);
 	
 	// https://www.gamesradar.com/best-video-game-quotes-all-time/
@@ -105,7 +109,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		totalTyped += document.getElementById("inputField").value.length;
 		totalLength += document.getElementById("target").innerText.length;
 		
-		elapsed = (Date.now() - totalTime) / 1000;
+		totalElapsed += (Date.now() - roundTime) / 1000; // elapsed time is represented as the sum of all segments
 		totalWPM = Math.floor((totalTyped / 5) / (elapsed / 60));
 		
 		accuracy = 0;
@@ -115,7 +119,7 @@ Woah. What are you doing here? You're not supposed to be here...
 		}
 		
 		document.getElementById("totalScore").innerText = "score: " + totalScore + "/" + totalLength + " (" + accuracy + "%)";
-		document.getElementById("totalTime").innerText = "elapsed: " + elapsed;
+		document.getElementById("totalElapsed").innerText = "elapsed: " + totalElapsed;
 		document.getElementById("totalwpm").innerText = "wpm: " + totalWPM;
 		
 		reset();
