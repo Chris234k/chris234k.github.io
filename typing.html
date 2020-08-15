@@ -55,6 +55,8 @@ Woah. What are you doing here? You're not supposed to be here...
 	totalWPM = 0;
 	totalElapsed = 0;
 	
+	targetText = "";
+	
 	document.addEventListener("keydown", onKeyDown, false);
 	
 	// https://www.gamesradar.com/best-video-game-quotes-all-time/
@@ -103,7 +105,8 @@ Woah. What are you doing here? You're not supposed to be here...
 		
 		if(pickNewQuote) {
 			random = Math.floor(Math.random() * quotes.length);
-			document.getElementById("target").innerText = quotes[random];
+			targetText = quotes[random];
+			document.getElementById("target").innerText = targetText;
 		}
 		
 		renderTypingText();
@@ -112,7 +115,7 @@ Woah. What are you doing here? You're not supposed to be here...
 	function submit() {
 		totalScore += score;
 		totalTyped += document.getElementById("inputField").value.length;
-		totalLength += document.getElementById("target").innerText.length;
+		totalLength += targetText.length;
 		
 		totalElapsed += ((Date.now() - roundTime) / 1000); // elapsed time is represented as the sum of all segments
 		totalWPM = Math.floor((totalTyped / 5) / (totalElapsed / 60));
@@ -126,7 +129,6 @@ Woah. What are you doing here? You're not supposed to be here...
 	
 	function inputChange() {
 		typed = document.getElementById("inputField").value;
-		target = document.getElementById("target").innerText;
 		
 		if(typed.length == 0) { // reset if the num typed goes back to zero (ex: user clears typed after early mistake)
 			reset(false);
@@ -135,13 +137,13 @@ Woah. What are you doing here? You're not supposed to be here...
 		
 		score = 0;
 		for(i = 0; i < typed.length; i++) {
-			if(i < target.length) {
-				if(typed.charAt(i) == target.charAt(i)) {
+			if(i < targetText.length) {
+				if(typed.charAt(i) == targetText.charAt(i)) {
 					score++;
 				}
 			}
 		}
-		document.getElementById("score").innerText = buildScoreString(score, target.length);
+		document.getElementById("score").innerText = buildScoreString(score, targetText.length);
 		
 		elapsed = ((Date.now() - roundTime) / 1000);
 		document.getElementById("time").innerText = "elapsed: " + elapsed;
@@ -155,12 +157,11 @@ Woah. What are you doing here? You're not supposed to be here...
 	
 	function renderTypingText() {
 		typed = document.getElementById("inputField").value;
-		target = document.getElementById("target").innerText;
 		
 		result = "";
 		
-		for(i = 0; i < target.length; i++) {
-			char = target.charAt(i);
+		for(i = 0; i < targetText.length; i++) {
+			char = targetText.charAt(i);
 			if(i < typed.length) {
 				if(char == typed.charAt(i)) {
 					result += correctLetter(char);
