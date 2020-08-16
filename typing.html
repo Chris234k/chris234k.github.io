@@ -77,11 +77,6 @@ Woah. What are you doing here? You're not supposed to be here...
 	
 	
 	function onKeyDown(event) {
-		if(!isTiming) {
-			isTiming = true;
-			roundTime = Date.now();
-		}
-		
 		if(event.key == "Escape") {
 			reset(true);
 		} else if (event.key == "Enter") {
@@ -131,9 +126,10 @@ Woah. What are you doing here? You're not supposed to be here...
 	function inputChange() {
 		typed = document.getElementById("inputField").value;
 		
-		if(typed.length == 0) { // reset if the num typed goes back to zero (ex: user clears typed after early mistake)
-			reset(false);
-			return;
+		if(typed.length == 1) { // begin timing when the first character is typed
+			isTiming = true;
+			roundTime = Date.now();
+			return; // return to prevent "infinity" wpm because 0 time elapsed at this point
 		}
 		
 		score = 0;
