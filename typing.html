@@ -76,16 +76,17 @@ Woah. What are you doing here? You're not supposed to be here...
 	]	
 	
 	
-	function onKeyDown(key) {
+	function onKeyDown(event) {
 		if(!isTiming) {
 			isTiming = true;
 			roundTime = Date.now();
 		}
 		
-		if(key.key == "Escape") {
+		if(event.key == "Escape") {
 			reset(true);
-		} else if (key.key == "Enter") {
+		} else if (event.key == "Enter") {
 			submit();
+			event.preventDefault(); // prevent textarea from going to the next line
 		}
 	}
 	
