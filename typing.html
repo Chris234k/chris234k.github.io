@@ -163,9 +163,9 @@ Woah. What are you doing here? You're not supposed to be here...
 			char = targetText.charAt(i);
 			if(i < typed.length) {
 				if(char == typed.charAt(i)) {
-					result += correctLetter(char);
+					result += correctLetter(typed.charAt(i));
 				} else {
-					result += incorrectLetter(char);
+					result += incorrectLetter(typed.charAt(i));
 				}
 			} else {
 				result += untypedLetter(char);
