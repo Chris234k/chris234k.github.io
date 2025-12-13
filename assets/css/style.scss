@@ -43,24 +43,6 @@ a:active {
     color: #71736C;
 }
 
-a:before {
-    content: '[';
-}
-
-a:after {
-    content: ']';
-}
-
-// a tag w/o [ link ] formatting
-a.no-fancy:before {
-    content: none;
-}
-
-a.no-fancy:after {
-    content: none;
-}
-
-
 hr {
     background-color: #71736C;
     display: block;
