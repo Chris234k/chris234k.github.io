@@ -11,14 +11,35 @@ grid-rank: 10
 ---
 
 ## [Mightier](https://mightier.com/)
+Mightier is a small team so I work in different parts of engineering regularly. Gameplay, tools, performance; you name it.
 
-I worked with Mightier in 2017-2018 as a remote contractor and in December of 2019 I joined Mightier full time as a platform engineer!
+Our main project is an RPG system designed to teach kids about principles of Cognitive Behavioral Therapy. Here are some samples.
 
-I've worked on platform, tools, and a number of game integrations:
+## RPG
+Release version:
+<div class="aspectratio">
+<video autoplay muted loop src="/assets/images/mightier/rpg-release.mp4"></video>
+</div>
+
+Early prototype:
+About a week of work into prototyping.
+<div class="aspectratio">
+<video autoplay muted loop src="/assets/images/mightier/rpg-protoype.mp4"></video>
+</div>
+
+Narrative Tools:
+Built on top of Unity's Timeline system. My text system supports localization in 6 languages (including Arabic in Right-To-Left)
+<div class="aspectratio">
+<video autoplay muted loop src="/assets/images/mightier/rpg-tools.mp4"></video>
+</div>
+
+
+### 3rd Party Game Support
+Mightier has 27 games inside of it, you can seem them here https://www.mightier.com/game-directory/
+
+In addition to maintaining our existing library, my work involved adding several games to Mightier:
 - Air Hockey
 - Race the Sun
 - Runaway Toad
 - Unpossible
 - You Must Build a Boat
-
-Side note: two games that I personally developed are actually on Mightier as well: [Hibachi Hero](/games/hibachihero) and [Gelato Flicker](/games/gelatoflicker). There was a particularly funny moment when I was asked to fix a bug in Gelato Flicker :)
