@@ -19,6 +19,8 @@ Think Pokemon, but with cards. Sample shows a battle starting and playing a few 
 <video autoplay muted loop src="/assets/images/mightier/rpg-release.mp4"></video>
 </div>
 
+
+Hatch new creatures and grow your team
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/mightier/rpg-egg.mp4"></video>
 </div>
@@ -29,10 +31,12 @@ Sample cutscene, built on top of Unity's Timeline system.
 <video autoplay muted loop src="/assets/images/mightier/rpg-cutscene.mp4"></video>
 </div>
 
+
 Tool example: shows an NPC moving and delivering a few lines. The text system supports localization in 6 languages (including Right-To-Left for Arabic)
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/mightier/rpg-tools.mp4"></video>
 </div>
+
 
 ### Prototype
 About a week into prototyping.
