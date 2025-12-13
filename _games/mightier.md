@@ -4,7 +4,7 @@ title: Mightier
 pitch: Emotional regulation through play
 collection: games
 thumbnail: assets/images/mightier.png
-trailer: https://www.youtube.com/embed/LwGpnVw-vM8?si=2hgDfpUM2DF1nNnj"
+trailer: https://www.youtube.com/embed/LwGpnVw-vM8?si=2hgDfpUM2DF1nNnj
 google-play: https://play.google.com/store/apps/details?id=com.neuromotion.mightier&hl=en_US
 ios: https://itunes.apple.com/us/app/mightier/id1333675573?ls=1&mt=8
 grid-rank: 10
@@ -19,6 +19,8 @@ Think Pokemon, but with cards. Sample shows a battle starting and playing a few 
 <video autoplay muted loop src="/assets/images/mightier/rpg-release.mp4"></video>
 </div>
 
+<br>
+<br>
 
 Hatch new creatures and grow your team
 <div class="aspectratio">
@@ -31,6 +33,8 @@ Sample cutscene, built on top of Unity's Timeline system.
 <video autoplay muted loop src="/assets/images/mightier/rpg-cutscene.mp4"></video>
 </div>
 
+<br>
+<br>
 
 Tool example: shows an NPC moving and delivering a few lines. The text system supports localization in 6 languages (including Right-To-Left for Arabic)
 <div class="aspectratio">
