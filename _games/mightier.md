@@ -19,7 +19,6 @@ Think Pokemon, but with cards. Sample shows a battle starting and playing a few 
 <video autoplay muted loop src="/assets/images/mightier/rpg-release.mp4"></video>
 </div>
 
-Hatch new Creatures and grow your team.
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/mightier/rpg-egg.mp4"></video>
 </div>
@@ -30,7 +29,7 @@ Sample cutscene, built on top of Unity's Timeline system.
 <video autoplay muted loop src="/assets/images/mightier/rpg-cutscene.mp4"></video>
 </div>
 
-Shows an NPC moving and delivering a few lines. The text system supports localization in 6 languages (including Right-To-Left for Arabic)
+Tool example: shows an NPC moving and delivering a few lines. The text system supports localization in 6 languages (including Right-To-Left for Arabic)
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/mightier/rpg-tools.mp4"></video>
 </div>
@@ -43,7 +42,7 @@ About a week into prototyping.
 
 ---
 ### 3rd Party Game Support
-Mightier has 27 games inside of it, you can seem them here https://www.mightier.com/game-directory/
+Mightier has 27 games inside of it, you can see them here: [Mightier Games](https://www.mightier.com/game-directory/)
 
 In addition to maintaining our existing library, my work involved adding several games to Mightier:
 - Air Hockey
