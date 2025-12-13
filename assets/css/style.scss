@@ -31,6 +31,7 @@ blockquote{
 // --
 a {
     color: #FFF2DC;
+    text-decoration: underline; 
 }
 
 a:hover {
@@ -82,6 +83,7 @@ hr {
 
 #body a { // Differentiate link color from background color
     color: #3F403C;
+    text-decoration: underline; 
     font-weight: bold;
 }
 
