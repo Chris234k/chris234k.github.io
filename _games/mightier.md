@@ -14,20 +14,31 @@ grid-rank: 10
 Mightier is a small team so I work in different parts of engineering regularly. Gameplay, tools, performance; you name it. Our main project is an RPG designed to teach kids about principles of Cognitive Behavioral Therapy. Here are some samples.
 
 ## RPG 
+Think Pokemon, but with cards. Sample shows a battle starting and playing a few attacks.
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/mightier/rpg-release.mp4"></video>
 </div>
 
-### Prototype
-About a week of work in prototyping.
+Hatch new Creatures and grow your team.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/rpg-prototype.mp4"></video>
+<video autoplay muted loop src="/assets/images/mightier/rpg-egg.mp4"></video>
 </div>
 
-### Narrative Tools
-Built on top of Unity's Timeline system. My text system supports localization in 6 languages (including Arabic in Right-To-Left)
+### Cutscenes
+Sample cutscene, built on top of Unity's Timeline system.
+<div class="aspectratio">
+<video autoplay muted loop src="/assets/images/mightier/rpg-cutscene.mp4"></video>
+</div>
+
+Shows an NPC moving and delivering a few lines. The text system supports localization in 6 languages (including Right-To-Left for Arabic)
 <div class="aspectratio">
 <video autoplay muted loop src="/assets/images/mightier/rpg-tools.mp4"></video>
+</div>
+
+### Prototype
+About a week into prototyping.
+<div class="aspectratio">
+<video autoplay muted loop src="/assets/images/mightier/rpg-prototype.mp4"></video>
 </div>
 
 ---
