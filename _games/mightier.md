@@ -55,7 +55,7 @@ UI samples from the project
 
 Avatar customization system. The game has hundreds of outfits for players to choose from.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/ui/avatar.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/ui/avatar.mp4"></video>
 </div>
 
 <br>
@@ -63,7 +63,7 @@ Avatar customization system. The game has hundreds of outfits for players to cho
 
 Creature selection screen. Players can preview a Creature's cards and stats.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/ui/creature.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/ui/creature.mp4"></video>
 </div>
 
 <br>
@@ -71,7 +71,7 @@ Creature selection screen. Players can preview a Creature's cards and stats.
 
 Card upgrade system.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/ui/upgrade.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/ui/upgrade.mp4"></video>
 </div>
 
 <br>
@@ -79,7 +79,7 @@ Card upgrade system.
 
 Collectable monsters page.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/ui/lavalings.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/ui/lavalings.mp4"></video>
 </div>
 
 <br>
@@ -87,7 +87,7 @@ Collectable monsters page.
 
 Achievement screen.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/ui/badges.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/ui/badges.mp4"></video>
 </div>
 
 <br>
@@ -95,7 +95,7 @@ Achievement screen.
 
 Map screen to travel between regions.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/ui/map.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/ui/map.mp4"></video>
 </div>
 
 
@@ -106,7 +106,7 @@ A few of Mightier's internal tools
 Scan the entire project for usages of any Unity prefab/scene/animation/etc. Sample shows tracking a script usage from prefabs into a scene.
 Takes <1 second to scan nearly 6,000 files. This tool is very optimized and is some of my best work.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/tools/find-refs.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/tools/find-refs.mp4"></video>
 </div>
 
 <br>
@@ -114,7 +114,7 @@ Takes <1 second to scan nearly 6,000 files. This tool is very optimized and is s
 
 Workflow tool to quickly swap between scenes. Includes organization by internal categories.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/tools/scene-switch.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/tools/scene-switch.mp4"></video>
 </div>
 
 <br>
@@ -122,7 +122,7 @@ Workflow tool to quickly swap between scenes. Includes organization by internal 
 
 Avatar customization system. Sample shows a creation of a new outfit. Worked closely with the artist to setup naming conventions and Avatar parts in a way that makes this easy for us.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/tools/avatar-create.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/tools/avatar-create.mp4"></video>
 </div>
 
 <br>
@@ -130,7 +130,7 @@ Avatar customization system. Sample shows a creation of a new outfit. Worked clo
 
 Avatar outfit tester. Avoids having to launch the game to make small outfit edits.
 <div class="aspectratio">
-<video autoplay muted loop src="/assets/images/mightier/tools/avatar-tester.mp4"></video>
+<video controls muted loop src="/assets/images/mightier/tools/avatar-tester.mp4"></video>
 </div>
 
 
